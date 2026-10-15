@@ -1,6 +1,8 @@
 # Git 트러블슈팅 기록
 
-팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. 현재는 양식만 준비했으며, 양식 작성은 실습 완료가 아닙니다.
+팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. 아래 표에는 실제 수행한 실습만 완료로 표시합니다. 양식 작성은 실습 완료가 아닙니다.
+팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. 현재 `reset --soft`, `revert`, `stash / stash pop` 3종의 실습 기록이 있으며, `amend`는 아직 미실습입니다. 아래 양식은 추가 실습을 위한 형식입니다.
+팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. `stash` / `stash pop` 1건을 실습했고, 나머지 3종은 아직 미실습입니다. 양식 작성만으로는 실습 완료가 아닙니다.
 
 개인 `feature/*` 브랜치에서 진행합니다. 공유 브랜치의 기록을 다시 쓰거나 팀 합의 없이 강제 푸시·리베이스하지 않습니다.
 
@@ -9,13 +11,58 @@
 | 시나리오 | 실습 내용과 주의점 | 참여자(작성·실습·검토) | 기록·증빙 | 상태 |
 | --- | --- | --- | --- | --- |
 | `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 작성·실습: 이은서 / 검토: (PR 리뷰어 이름) | [기록](#amend), [스크린샷](evidence/amend.png) | 실습함 · PR 검토 전 |
+| `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
+| `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | yujinchoe (작성·실습) | [Issue #23](https://github.com/book732/Codyssey_2-2/issues/23), PR 리뷰에서 추가 | 실습 완료·리뷰 대기 |
+| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 나현준(vivleon): 실습·기록 | [PR #27](https://github.com/book732/Codyssey_2-2/pull/27) | 실습 완료·PR 검토 대기 |
+| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록 | [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습 완료·PR 검토 대기 |
 | `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
-| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 미기록 | 미기록 | 미실습 |
+| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 나현준(vivleon): 실습·기록, AI 도구 보조 | [실제 기록](#revert-vivleon), [명령·출력](evidence/revert-vivleon.txt) | 실습 완료 · PR 검토 대기 |
 | `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 미기록 | 미기록 | 미실습 |
+| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 미기록 | 미기록 | 미실습 |
+| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록; 검토: PR 리뷰 대기 | [실제 기록](#stash-practice-book732), [Issue #25](https://github.com/book732/Codyssey_2-2/issues/25), [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습·기록 완료, PR 검토 대기 |
 
 - `revert`의 `커밋해시`는 실제 취소할 실습 커밋으로 바꿉니다. 팀원의 커밋을 임의로 취소하지 않습니다.
 - 기본 `stash`는 새로 만든 미추적 파일을 보관하지 않습니다. 필요하면 `git stash -u`를 사용하고, 전후에 `git status`로 확인합니다.
 - `stash pop`이 충돌하면 보관한 항목이 남을 수 있으므로 `git stash list`를 확인하고 팀원과 해결합니다.
+
+## 시나리오: git reset --soft HEAD~1
+
+- 날짜: 2026-10-15
+- 참여자: 작성·실습 yujinchoe, 검토 PR 리뷰어 추가 예정
+- 브랜치와 파일: `feature/yujinchoe-soft-reset-log`, `src/practice.txt`
+
+### 상황과 재현 방법
+
+원격에 push하지 않은 개인 브랜치에서 최근 커밋을 취소하되, 해당 커밋의 변경 내용은 유지해야 하는 상황을 재현했다. 실습용 변경은 `src/practice.txt`에 한 줄을 추가하는 방식으로 만들었다.
+
+### 시도한 명령과 결과
+
+```text
+$ git add src/practice.txt
+$ git commit -m "chore: prepare soft reset practice"
+[feature/yujinchoe-soft-reset-log 8288e77] chore: prepare soft reset practice
+
+$ git log -2 --oneline
+8288e77 chore: prepare soft reset practice
+9ed1718 Merge pull request #22 from book732/feature/yujinchoe-status-links
+
+$ git reset --soft HEAD~1
+
+$ git log -1 --oneline
+9ed1718 Merge pull request #22 from book732/feature/yujinchoe-status-links
+
+$ git status --short
+M  src/practice.txt
+```
+
+- 해결 결과: `8288e77` 커밋은 현재 브랜치의 커밋 기록에서 제거됐고, 커밋에 포함했던 `src/practice.txt` 변경은 staged 상태로 유지됐다.
+- 확인 방법과 결과: `git diff --cached -- src/practice.txt`로 변경 내용이 staged 상태임을 확인했다. 확인 후 `git restore --staged src/practice.txt`와 파일 원상복구로 임시 실습 변경을 제거했다.
+- 관련 Issue·PR·커밋 또는 출력 증빙: [Issue #23](https://github.com/book732/Codyssey_2-2/issues/23), 실습용 커밋 `8288e77`(원격 push하지 않음)
+
+### 이 방법을 선택한 이유와 주의점
+
+- 선택 이유: 아직 원격에 push하지 않은 개인 브랜치의 최근 커밋만 취소하면서 변경 내용은 다시 다듬거나 새 커밋으로 만들 수 있기 때문이다.
+- 협업에 미치는 영향과 주의점: reset은 로컬 커밋 포인터를 이동하므로 이미 공유한 커밋에는 사용하지 않는다. 원격에 push된 커밋을 취소해야 한다면 `git revert`로 새 커밋을 만든다.
 
 실습할 때마다 아래 양식을 복사하고, 위 표에 참여자 이름과 실제 기록·증빙 링크를 채웁니다. 괄호 안 안내는 실제 증빙이 아니며, 각자의 역할이 이름과 함께 보여야 합니다.
 
@@ -63,6 +110,102 @@ $ git log --oneline -1
 
 - 선택 이유: 아직 push하지 않은 본인 브랜치의 최근 커밋이라 메시지만 바로잡으면 되었습니다. 새 커밋을 추가하지 않고 히스토리를 깔끔하게 유지할 수 있습니다.
 - 협업에 미치는 영향과 주의점: amend는 커밋 해시를 바꾸므로 이미 push한 커밋에 사용하면 원격과 기록이 달라져 강제 푸시가 필요합니다. 다른 팀원이 그 커밋을 받았다면 기록이 꼬일 수 있으므로, push 전의 본인 커밋에만 사용하고 push한 커밋은 `git revert`로 되돌립니다.
+<a id="revert-vivleon"></a>
+
+## 시나리오: 원격에 push한 커밋을 git revert로 취소
+
+- 날짜: 2026-10-15 16:57 (한국 시간)
+- 실습·기록 담당: 나현준(vivleon). 명령 실행과 기록 정리는 AI 도구의 도움을 받았습니다.
+- 팀원 검토: [PR #27](https://github.com/book732/Codyssey_2-2/pull/27)에서 팀장 book732에게 요청했으며, 아직 승인받은 상태는 아닙니다.
+- 브랜치: `feature/vivleon-revert-practice`
+- 실습 파일: `src/revert-practice-vivleon.txt` (취소 후에는 파일이 없어집니다.)
+- 연결 Issue: [#24](https://github.com/book732/Codyssey_2-2/issues/24)
+
+### 상황과 재현 방법
+
+원격에 이미 올린 커밋을 취소하는 상황을 연습했습니다. 다른 팀원의 파일 대신 본인의 임시 파일을 추가하고 push한 뒤, 그 커밋만 취소했습니다.
+
+시작할 때 작업 폴더는 깨끗했으며, `origin/main`의 `9ed1718`에서 새 브랜치를 만들었습니다. 임시 파일에는 아래 두 줄을 작성했습니다.
+
+```text
+Git revert 실습용 임시 파일입니다.
+원격에 push한 후 이 파일을 추가한 커밋을 취소합니다.
+```
+
+아래는 실제 수행한 명령입니다. 다시 실습할 때는 최신 `main`에서 본인용 새 브랜치와 파일을 만들고, 커밋 해시도 새로 생성된 값으로 바꿉니다. 이 기록의 해시를 그대로 취소하지 않습니다.
+
+### 시도한 명령과 결과
+
+```bash
+git switch -c feature/vivleon-revert-practice origin/main
+# 위 내용으로 임시 파일을 만든 뒤 실행
+git add src/revert-practice-vivleon.txt
+git commit -m 'chore: add vivleon revert practice file'
+git push --set-upstream origin feature/vivleon-revert-practice
+
+# GitHub에서 원격 브랜치의 커밋을 확인
+gh api repos/book732/Codyssey_2-2/git/ref/heads/feature/vivleon-revert-practice --jq .object.sha
+# 결과: 3449502195dfca605681bd02d90cd5628ce8d884
+
+git revert --no-commit 3449502195dfca605681bd02d90cd5628ce8d884
+git commit -m 'chore: revert pushed vivleon practice file' -m 'This reverts commit 3449502195dfca605681bd02d90cd5628ce8d884.'
+git push origin feature/vivleon-revert-practice
+
+gh api repos/book732/Codyssey_2-2/git/ref/heads/feature/vivleon-revert-practice --jq .object.sha
+# 결과: 6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8
+```
+
+`--no-commit`은 취소할 변경을 먼저 준비하는 옵션입니다. 이어서 팀 커밋 메시지 규칙에 맞는 새 커밋을 만들었습니다. 이전 커밋의 기록은 지우지 않았습니다. 위 원격 조회 결과는 실습 당시 값이며, 기록 문서 등을 push하면 브랜치의 최신 커밋은 달라집니다.
+
+### 해결 결과와 확인
+
+- [실습 커밋 `3449502`](https://github.com/book732/Codyssey_2-2/commit/3449502195dfca605681bd02d90cd5628ce8d884): 임시 파일 추가 후 원격 push를 확인했습니다.
+- [취소 커밋 `6690b3b`](https://github.com/book732/Codyssey_2-2/commit/6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8): 임시 파일을 삭제하는 새 커밋을 만들어 원격 push를 확인했습니다.
+- `git diff --exit-code 3449502195dfca605681bd02d90cd5628ce8d884^ 6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8`: 출력 없이 종료 코드 0. 실습 전과 취소 직후의 전체 파일 내용이 같았습니다.
+- `git ls-tree --name-only HEAD src/revert-practice-vivleon.txt`: 취소 직후 출력이 없어 파일이 남지 않았음을 확인했습니다.
+- `git status --porcelain=v1`: 취소 직후 출력이 없어 작업 폴더가 깨끗했습니다.
+- `git log --oneline -3`: 실습 커밋과 취소 커밋이 모두 남았습니다. 실제 명령·출력은 [증빙 파일](evidence/revert-vivleon.txt)에서 확인할 수 있습니다.
+
+### 이 방법을 선택한 이유와 주의점
+
+이미 push한 커밋이므로 과거 기록을 바꾸는 대신, 변경을 취소하는 새 기록을 남기는 `revert`를 선택했습니다. `reset --soft`는 커밋을 되돌리면서 변경은 남길 때 쓰며, 원격에 공유한 기록을 지우기 위한 용도로 쓰지 않습니다. `stash`는 아직 커밋하지 않은 작업을 잠시 보관하는 기능이라 이번 상황과 다릅니다.
+
+이번에는 본인이 만든 임시 파일의 커밋만 취소했습니다. 공유 `main`에 직접 push하거나 강제 push하지 않았고, 다른 팀원의 커밋도 취소하지 않았습니다. 실제 작업에서는 취소할 커밋을 먼저 확인하며, 이후 변경과 겹치면 충돌이 날 수 있으므로 내용을 확인하고 해결합니다.
+<a id="stash-practice-book732"></a>
+
+## 실제 실습: `git stash` / `git stash pop`
+
+- 날짜: 2026-10-15
+- 참여자: 정근혁(book732) — 실습·기록; 검토는 PR에서 진행 예정
+- 브랜치와 파일: `feature/book732-stash-practice`, `src/practice.txt`
+- 관련 Issue: [#25](https://github.com/book732/Codyssey_2-2/issues/25)
+- 관련 PR: [#28](https://github.com/book732/Codyssey_2-2/pull/28)
+
+### 상황과 실행 순서
+
+최신 `main`에서 실습 브랜치를 만들고, 추적 중인 `src/practice.txt`에 `stash 실습: 정근혁의 임시 작업을 보관 후 복원` 한 줄을 추가했습니다. 이 변경은 커밋하거나 push하지 않은 상태였습니다. 기존 미추적 파일 `.gitignore`와 `2-2.pdf`는 건드리지 않았습니다.
+
+```text
+git switch -c feature/book732-stash-practice
+git status --short
+git stash
+git stash list -1
+git switch main
+git switch feature/book732-stash-practice
+git stash pop
+git status --short
+git stash list
+```
+
+### 실제 결과와 확인
+
+- 보관 전 `git status --short`: ` M src/practice.txt`, `?? .gitignore`, `?? 2-2.pdf`.
+- `git stash`: `Saved working directory and index state WIP on feature/book732-stash-practice: 9ed1718 ...`가 출력됐습니다. 수정한 줄은 작업 파일에서 사라졌고 `git stash list -1`에 `stash@{0}`이 표시됐습니다.
+- `main`으로 전환한 다음 실습 브랜치로 돌아왔습니다.
+- `git stash pop`: `modified: src/practice.txt`와 `Dropped refs/stash@{0} (235418d8e4bc71389ca33e1a4a00f7b32eaa744f)`가 출력됐습니다.
+- 복원 후 `git diff -- src/practice.txt`에 추가한 한 줄이 다시 나타났고 `git stash list`는 비어 있었습니다. 두 미추적 파일은 그대로 남았습니다.
+
+커밋 전 임시 변경을 보관하면 브랜치를 전환한 뒤 원래 작업을 이어갈 수 있습니다. 기본 `git stash`는 미추적 파일을 보관하지 않으므로 전후에 `git status`를 확인해야 합니다. 이 실습에서는 충돌이 발생하지 않았습니다.
 
 ## 복사해서 사용할 양식
 
