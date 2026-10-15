@@ -1,0 +1,117 @@
+*   d6f517c Merge pull request #30 from book732/feature/eunseo-415-amend-practice
+|\
+| *   0aec685 Merge branch 'main' into feature/eunseo-415-amend-practice
+| |\
+| * | 42b07b9 docs: complete amend practice record
+| * | 29a30af docs: add amend troubleshooting record
+* | |   4cbb1b1 Merge pull request #32 from book732/feature/yujinchoe-team-intro-v2
+|\ \ \
+| |_|/
+|/| |
+| * | ab69470 docs: add yujinchoe team introduction
+|/ /
+* |   96a2ea1 Merge pull request #27 from book732/feature/vivleon-revert-practice
+|\ \
+| * \   621911f Merge branch 'main' into feature/vivleon-revert-practice
+| |\ \
+| |/ /
+|/| |
+* | |   bff774b Merge pull request #26 from book732/feature/yujinchoe-soft-reset-log
+|\ \ \
+| * \ \   17617fd Merge branch 'main' into feature/yujinchoe-soft-reset-log
+| |\ \ \
+| |/ / /
+|/| | |
+* | | |   0eb19ba Merge pull request #28 from book732/feature/book732-stash-practice
+|\ \ \ \
+| * | | | 2f2930b docs: link stash practice pull request
+| * | | | 3b2e490 docs: record stash and pop practice
+|/ / / /
+| * | | aba0d36 docs: update troubleshooting practice status
+| * | | 1c40ad5 docs: add yujinchoe review evidence
+| * | | 628331d docs: link soft reset troubleshooting evidence
+| * | | a1131eb docs: record soft reset troubleshooting
+|/ / /
+| * | 2fa9135 docs: link revert practice pull request
+| * | 4ec720f docs: record vivleon pushed commit revert practice
+| * | 6690b3b chore: revert pushed vivleon practice file
+| * | 3449502 chore: add vivleon revert practice file
+|/ /
+* |   9ed1718 Merge pull request #22 from book732/feature/yujinchoe-status-links
+|\ \
+| |/
+|/|
+| * d1df352 docs: link status update issue and pull request
+| * 6b13aba docs: update yujinchoe status links
+|/
+*   b869bf2 Merge pull request #20 from book732/feature/yujinchoe-conflict-log
+|\
+| | * a141f1b docs: link conflict record review evidence
+| |/
+| *   ad66205 docs: integrate concurrent conflict record updates
+| |\
+| | *   08cae3b Merge branch 'main' into feature/yujinchoe-conflict-log
+| | |\
+| |_|/
+|/| |
+| * |   2aa67db docs: preserve both verified conflict records
+| |\ \
+| |/ /
+|/| /
+| |/
+| * d402183 docs: link yujinchoe submission evidence
+| * 14581ef docs: record README conflict resolution
+| | *   0d7d200 Merge branch 'main' into feature/yujinchoe-team-intro
+| | |\
+| |_|/
+|/| |
+* | |   603d409 Merge pull request #15 from book732/feature/book732-turkey-experience
+|\ \ \
+| * \ \   6ff8133 docs: merge main and preserve team submission links
+| |\ \ \
+| |/ / /
+|/| | |
+* | | |   6c8f8ee Merge pull request #18 from book732/feature/vivleon-sync-team-docs
+|\ \ \ \
+| |_|/ /
+|/| | |
+| * | | cbb6178 docs: link documentation sync pull request
+| * | | 73d1e9d docs: sync merged introduction and review links
+|/ / /
+| * | b13e27f docs: expand team profile to 1000 characters
+| * | 52c3391 docs: link profile update pull request
+| * | 481f197 docs: add Turkey work experience to team profile
+|/ /
+| *   b867601 fix: resolve README merge conflict
+| |\
+| |/
+|/|
+* |   de929ea Merge pull request #13 from book732/feature/eunseo-team-intro
+|\ \
+| * | a801683 docs: add eunseo team introduction
+* | |   8405a0d Merge pull request #12 from book732/feature/vivleon-common-docs
+|\ \ \
+| |/ /
+|/| |
+| * | 9e6d21e docs: link shared documentation pull request
+| * | 6c95195 docs: add shared collaboration guides and templates
+|/ /
+| * 685e917 docs: add yujinchoe team introduction
+|/
+*   fd630d0 Merge pull request #9 from book732/feature/vivleon-team-intro
+|\
+| * 564e4cc docs: add vivleon team introduction
+* |   a1a422f Merge pull request #4 from book732/feature/book732-github-flow-guide
+|\ \
+| |/
+|/|
+| * 2a692af docs: clarify commit message examples
+| * b794e7d docs: define branch and commit conventions
+| * 5ba1808 docs: document GitHub Flow branch strategy
+|/
+*   55cd73d Merge pull request #2 from book732/feature/book732-team-intro
+|\
+| * a528275 docs: expand team leader introduction
+| * a313416 docs: add team leader introduction
+|/
+* 36f6b75 chore: initialize repository

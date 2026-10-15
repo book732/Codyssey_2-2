@@ -1,8 +1,6 @@
 # Git 트러블슈팅 기록
 
-팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. 아래 표에는 실제 수행한 실습만 완료로 표시합니다. 양식 작성은 실습 완료가 아닙니다.
-팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. 현재 `reset --soft`, `revert`, `stash / stash pop` 3종의 실습 기록이 있으며, `amend`는 아직 미실습입니다. 아래 양식은 추가 실습을 위한 형식입니다.
-팀 전체가 아래 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**합니다. `stash` / `stash pop` 1건을 실습했고, 나머지 3종은 아직 미실습입니다. 양식 작성만으로는 실습 완료가 아닙니다.
+팀 전체가 **4종을 모두 실습**하고, **각 팀원은 최소 1개 시나리오의 기록 작성에 참여**해야 합니다. 2026-10-15 기준 아래 네 실습의 기록이 모두 `main`에 병합됐으며, 네 명의 작성·실습 역할도 본문에 남아 있습니다. 양식 작성만으로는 실습 완료가 아닙니다.
 
 개인 `feature/*` 브랜치에서 진행합니다. 공유 브랜치의 기록을 다시 쓰거나 팀 합의 없이 강제 푸시·리베이스하지 않습니다.
 
@@ -10,25 +8,22 @@
 
 | 시나리오 | 실습 내용과 주의점 | 참여자(작성·실습·검토) | 기록·증빙 | 상태 |
 | --- | --- | --- | --- | --- |
-| `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 작성·실습: 이은서 / 검토: (PR 리뷰어 이름) | [기록](#amend), [스크린샷](evidence/amend.png) | 실습함 · PR 검토 전 |
-| `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
-| `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | yujinchoe (작성·실습) | [Issue #23](https://github.com/book732/Codyssey_2-2/issues/23), PR 리뷰에서 추가 | 실습 완료·리뷰 대기 |
-| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 나현준(vivleon): 실습·기록 | [PR #27](https://github.com/book732/Codyssey_2-2/pull/27) | 실습 완료·PR 검토 대기 |
-| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록 | [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습 완료·PR 검토 대기 |
-| `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
-| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 나현준(vivleon): 실습·기록, AI 도구 보조 | [실제 기록](#revert-vivleon), [명령·출력](evidence/revert-vivleon.txt) | 실습 완료 · PR 검토 대기 |
-| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 미기록 | 미기록 | 미실습 |
-| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 미기록 | 미기록 | 미실습 |
-| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록; 검토: PR 리뷰 대기 | [실제 기록](#stash-practice-book732), [Issue #25](https://github.com/book732/Codyssey_2-2/issues/25), [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습·기록 완료, PR 검토 대기 |
+| `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 이은서(Eunseo-415): 작성·실습 | [기록](#amend), [스크린샷](evidence/amend.png), [PR #30](https://github.com/book732/Codyssey_2-2/pull/30) | 실습·기록 완료 · PR 병합 |
+| `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 최유진(yujinchoe): 작성·실습 | [기록](#soft-reset), [Issue #23](https://github.com/book732/Codyssey_2-2/issues/23), [PR #26](https://github.com/book732/Codyssey_2-2/pull/26) | 실습·기록 완료 · PR 병합 |
+| `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 나현준(vivleon): 실습·기록, AI 도구 보조 | [기록](#revert-vivleon), [명령·출력](evidence/revert-vivleon.txt), [PR #27](https://github.com/book732/Codyssey_2-2/pull/27) | 실습·기록 완료 · PR 병합 |
+| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록 | [기록](#stash-practice-book732), [Issue #25](https://github.com/book732/Codyssey_2-2/issues/25), [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습·기록 완료 · PR 병합 |
 
 - `revert`의 `커밋해시`는 실제 취소할 실습 커밋으로 바꿉니다. 팀원의 커밋을 임의로 취소하지 않습니다.
 - 기본 `stash`는 새로 만든 미추적 파일을 보관하지 않습니다. 필요하면 `git stash -u`를 사용하고, 전후에 `git status`로 확인합니다.
 - `stash pop`이 충돌하면 보관한 항목이 남을 수 있으므로 `git stash list`를 확인하고 팀원과 해결합니다.
 
+<a id="soft-reset"></a>
+
 ## 시나리오: git reset --soft HEAD~1
 
 - 날짜: 2026-10-15
-- 참여자: 작성·실습 yujinchoe, 검토 PR 리뷰어 추가 예정
+- 참여자: 작성·실습 최유진(yujinchoe), 검토 나현준(vivleon, [리뷰·승인](https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530090763))
+- 반영 상태: [PR #26](https://github.com/book732/Codyssey_2-2/pull/26) 병합
 - 브랜치와 파일: `feature/yujinchoe-soft-reset-log`, `src/practice.txt`
 
 ### 상황과 재현 방법
@@ -64,14 +59,13 @@ M  src/practice.txt
 - 선택 이유: 아직 원격에 push하지 않은 개인 브랜치의 최근 커밋만 취소하면서 변경 내용은 다시 다듬거나 새 커밋으로 만들 수 있기 때문이다.
 - 협업에 미치는 영향과 주의점: reset은 로컬 커밋 포인터를 이동하므로 이미 공유한 커밋에는 사용하지 않는다. 원격에 push된 커밋을 취소해야 한다면 `git revert`로 새 커밋을 만든다.
 
-실습할 때마다 아래 양식을 복사하고, 위 표에 참여자 이름과 실제 기록·증빙 링크를 채웁니다. 괄호 안 안내는 실제 증빙이 아니며, 각자의 역할이 이름과 함께 보여야 합니다.
-
 <a id="amend"></a>
 
 ## 실제 기록: `git commit --amend`
 
 - 날짜: 2026-10-15
-- 참여자: 작성·기록 이은서, 실습 이은서, 검토 (PR 리뷰어 이름)
+- 참여자: 작성·기록 및 실습 이은서(Eunseo-415), 검토 나현준(vivleon, [리뷰](https://github.com/book732/Codyssey_2-2/pull/30#pullrequestreview-5530228200))
+- 반영 상태: [PR #30](https://github.com/book732/Codyssey_2-2/pull/30) 병합
 - 브랜치와 파일: `feature/eunseo-415-amend-practice`, `docs/troubleshooting-log.md`
 
 ### 상황과 재현 방법
@@ -104,7 +98,7 @@ $ git log --oneline -1
 
 - 해결 결과: `update` 커밋(`c912c06`)이 `docs: add amend troubleshooting record` 커밋(`29a30af`)으로 교체되었습니다. 커밋 개수는 그대로 1개이고, 변경 내용(30줄 추가)도 같습니다.
 - 확인 방법과 결과: `git log --oneline -1`로 수정 전후를 비교했습니다. 메시지가 바뀌었고 커밋 해시도 `c912c06`에서 `29a30af`로 바뀌었습니다. amend는 기존 커밋을 고치는 것이 아니라 새 커밋으로 교체한다는 것을 확인했습니다.
-- 관련 Issue·PR·커밋 또는 출력 증빙: [터미널 스크린샷](evidence/amend.png), PR (생성 후 링크 추가)
+- 관련 Issue·PR·커밋 또는 출력 증빙: [Issue #29](https://github.com/book732/Codyssey_2-2/issues/29), [PR #30](https://github.com/book732/Codyssey_2-2/pull/30), [수정 후 커밋](https://github.com/book732/Codyssey_2-2/commit/29a30af19d1fd00d748ef2f5692ec0e01546d9e3), [터미널 스크린샷](evidence/amend.png)
 
 ### 이 방법을 선택한 이유와 주의점
 
@@ -116,7 +110,7 @@ $ git log --oneline -1
 
 - 날짜: 2026-10-15 16:57 (한국 시간)
 - 실습·기록 담당: 나현준(vivleon). 명령 실행과 기록 정리는 AI 도구의 도움을 받았습니다.
-- 팀원 검토: [PR #27](https://github.com/book732/Codyssey_2-2/pull/27)에서 팀장 book732에게 요청했으며, 아직 승인받은 상태는 아닙니다.
+- 팀원 검토: 최유진(yujinchoe)의 [리뷰·승인](https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146)을 받았으며, [PR #27](https://github.com/book732/Codyssey_2-2/pull/27)은 병합됐습니다.
 - 브랜치: `feature/vivleon-revert-practice`
 - 실습 파일: `src/revert-practice-vivleon.txt` (취소 후에는 파일이 없어집니다.)
 - 연결 Issue: [#24](https://github.com/book732/Codyssey_2-2/issues/24)
@@ -176,7 +170,8 @@ gh api repos/book732/Codyssey_2-2/git/ref/heads/feature/vivleon-revert-practice 
 ## 실제 실습: `git stash` / `git stash pop`
 
 - 날짜: 2026-10-15
-- 참여자: 정근혁(book732) — 실습·기록; 검토는 PR에서 진행 예정
+- 참여자: 정근혁(book732) — 실습·기록; 검토 최유진(yujinchoe, [PR #28 리뷰](https://github.com/book732/Codyssey_2-2/pull/28#pullrequestreview-5529975026))
+- 반영 상태: [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) 병합
 - 브랜치와 파일: `feature/book732-stash-practice`, `src/practice.txt`
 - 관련 Issue: [#25](https://github.com/book732/Codyssey_2-2/issues/25)
 - 관련 PR: [#28](https://github.com/book732/Codyssey_2-2/pull/28)
@@ -208,6 +203,8 @@ git stash list
 커밋 전 임시 변경을 보관하면 브랜치를 전환한 뒤 원래 작업을 이어갈 수 있습니다. 기본 `git stash`는 미추적 파일을 보관하지 않으므로 전후에 `git status`를 확인해야 합니다. 이 실습에서는 충돌이 발생하지 않았습니다.
 
 ## 복사해서 사용할 양식
+
+추가 실습을 할 때 아래 양식을 복사하고, 현황표에 참여자 이름과 실제 기록·증빙 링크를 채웁니다. 괄호 안 안내는 실제 증빙이 아닙니다.
 
 ### 시나리오: (amend / soft reset / revert / stash 중 실제 실습명)
 
