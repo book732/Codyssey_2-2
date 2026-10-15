@@ -11,7 +11,7 @@
 | `git commit --amend` | 최근 커밋 메시지 수정. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
 | `git reset --soft HEAD~1` | 최근 로컬 커밋 1개 취소, 변경은 스테이징 상태로 유지. **아직 push하지 않은 본인의 개인 브랜치 커밋에만** 사용합니다. | 미기록 | 미기록 | 미실습 |
 | `git revert 커밋해시` | 원격에 push된 실습 커밋의 변경을 취소하는 **새 커밋**을 만듭니다. 개인 `feature/*`에서 진행하고 PR로 반영합니다. | 미기록 | 미기록 | 미실습 |
-| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록; 검토: PR 리뷰 대기 | [실제 기록](#stash-practice-book732), [Issue #25](https://github.com/book732/Codyssey_2-2/issues/25) | 실습·기록 완료, PR 검토 전 |
+| `git stash` / `git stash pop` | 커밋하지 않은 작업을 보관하고 다른 브랜치로 전환한 뒤, 원래 브랜치로 돌아와 복원합니다. `pop`할 때 충돌할 수 있습니다. | 정근혁(book732): 실습·기록; 검토: PR 리뷰 대기 | [실제 기록](#stash-practice-book732), [Issue #25](https://github.com/book732/Codyssey_2-2/issues/25), [PR #28](https://github.com/book732/Codyssey_2-2/pull/28) | 실습·기록 완료, PR 검토 대기 |
 
 - `revert`의 `커밋해시`는 실제 취소할 실습 커밋으로 바꿉니다. 팀원의 커밋을 임의로 취소하지 않습니다.
 - 기본 `stash`는 새로 만든 미추적 파일을 보관하지 않습니다. 필요하면 `git stash -u`를 사용하고, 전후에 `git status`로 확인합니다.
@@ -27,6 +27,7 @@
 - 참여자: 정근혁(book732) — 실습·기록; 검토는 PR에서 진행 예정
 - 브랜치와 파일: `feature/book732-stash-practice`, `src/practice.txt`
 - 관련 Issue: [#25](https://github.com/book732/Codyssey_2-2/issues/25)
+- 관련 PR: [#28](https://github.com/book732/Codyssey_2-2/pull/28)
 
 ### 상황과 실행 순서
 
