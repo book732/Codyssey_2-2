@@ -1,6 +1,6 @@
 # 충돌 해결 기록
 
-팀 전체에서 충돌을 **2회 이상** 해결하고, 그중 **1회 이상은 비자명 충돌**로 기록합니다. 현재 실제 충돌 해결 1건을 기록했으며, 두 번째 기록은 미실습 상태입니다. 양식 작성만으로 실습 완료가 되지는 않습니다.
+팀 전체에서 충돌을 **2회 이상** 해결하고, 그중 **1회 이상은 비자명 충돌**로 기록합니다. 현재 실제 충돌 해결 2건을 기록했습니다. 양식 작성만으로 실습 완료가 되지는 않습니다.
 
 - 비자명 충돌 예: 같은 파일의 같은 부분(같은 hunk 또는 인접한 줄)을 서로 다르게 수정하기, 한쪽은 파일 이름 변경·이동·삭제하고 다른 쪽은 내용 수정하기.
 - 실습할 파일 예: [`src/practice.txt`](../src/practice.txt). 개인 `feature/*` 브랜치에서 팀원과 합의한 뒤 진행합니다.
@@ -11,7 +11,7 @@
 | 기록 | 충돌 종류 | 참여자 | 실제 PR·커밋 링크 | 상태 |
 | --- | --- | --- | --- | --- |
 | [1](#conflict-1) | 비자명: 같은 표의 인접한 줄 수정 | 변경: book732·vivleon / 해결: vivleon | [PR #15](https://github.com/book732/Codyssey_2-2/pull/15), [PR #18](https://github.com/book732/Codyssey_2-2/pull/18) | 충돌 해결 |
-| 2 | 미정 | 미기록 | 미기록 | 미실습 |
+| [2](#conflict-2) | 비자명: README 목록과 표의 같은 영역 수정 | 변경: yujinchoe·vivleon / 최초 해결: yujinchoe | [PR #16](https://github.com/book732/Codyssey_2-2/pull/16), [기록 PR #20](https://github.com/book732/Codyssey_2-2/pull/20), [해결 커밋](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc) | 충돌 해결 기록 |
 
 실습 후 아래 양식을 복사해 기록하고 현황표를 갱신합니다. 괄호 안 안내와 예시 마커는 실제 증빙이 아니므로, 실제 결과로 바꿉니다.
 
@@ -63,6 +63,72 @@ git merge --no-commit --no-ff 6c8f8ee3f889e773bda955e923903a551bfa64d8
 - 소개 본문이 PR #15의 원문과 같은지 확인했고, 다른 팀원 행과 상대 링크 28개를 검증했습니다. `git diff --cached --check`가 통과했고, 미해결 파일도 남아 있지 않았습니다. 최종 반영은 이 PR의 병합 상태에서 확인할 수 있습니다.
 - 관련 PR: [소개 변경 #15](https://github.com/book732/Codyssey_2-2/pull/15), [공통 문서 변경 #18](https://github.com/book732/Codyssey_2-2/pull/18)
 - 배운 점: 서로 다른 팀원 행도 인접해 있으면 충돌할 수 있습니다. 공유 문서를 수정하기 전에 최신 main을 확인하고, 충돌 시 양쪽 링크를 행별로 비교합니다.
+
+<a id="conflict-2"></a>
+
+## 실제 충돌 기록 #2: README 팀원 소개 영역
+
+- 날짜: 2026-10-15
+- 변경 작성자: yujinchoe(소개 링크), vivleon(공통 문서)
+- 최초 충돌 해결: yujinchoe, 기록 통합: vivleon
+- 브랜치와 파일: `feature/yujinchoe-team-intro`와 `main`, `README.md`
+- 충돌 종류: 비자명 충돌 — 같은 팀원 소개 영역을 서로 다른 형식으로 수정함
+
+#### 상황과 재현 절차
+
+- `feature/yujinchoe-team-intro`에서는 팀원 소개를 목록으로 유지하면서 yujinchoe 소개 링크를 추가했다.
+- `main`에서는 vivleon의 공통 문서 작업으로 팀원 소개를 표 형식으로 변경하고 공통 문서 안내를 추가했다.
+- PR [#16](https://github.com/book732/Codyssey_2-2/pull/16)의 충돌을 로컬에서 재현했다.
+
+당시 공통 기준은 `fd630d06ded113f7f9c2b78a37ca9c6ccf90b8c6`입니다. 해결 커밋의 두 부모를 사용하면 최신 main이 바뀌어도 별도 복제본에서 재현할 수 있습니다.
+
+```bash
+git switch -c reproduce-readme-16 685e917028515fe496ce2b9a32c69e0d179c0ed4
+git merge --no-commit --no-ff de929ea87a3c08cd7c53d6dba1ea608d5282c799
+```
+
+#### 실제 충돌 내용
+
+팀원 소개 부분을 발췌했습니다. 실제 충돌에는 뒤의 공통 문서 안내 부분도 포함됩니다.
+
+> ```text
+> <<<<<<< HEAD
+> - [정근혁 (book732, 팀장)](team/book732.md)
+> - [나현준 (vivleon)](team/vivleon.md)
+> - [최유진 (yujinchoe)](team/yujinchoe.md)
+> =======
+> | 이름 | GitHub | 역할 | 소개 파일 |
+> | --- | --- | --- | --- |
+> | 정근혁 | book732 | 팀장 | [소개](team/book732.md) |
+> | 나현준 | vivleon | 팀원 | [소개](team/vivleon.md) |
+> | 이은서 | Eunseo-415 | 팀원 | 작성 예정: [Issue #5](https://github.com/book732/Codyssey_2-2/issues/5) |
+> | 최유진 | yujinchoe | 팀원 | 작성 예정: [Issue #5](https://github.com/book732/Codyssey_2-2/issues/5) |
+> >>>>>>> origin/main
+> ```
+
+#### 해결 과정과 이유
+
+- 최신 `main`의 표 형식과 공통 문서 안내를 유지했다.
+- yujinchoe 행은 이미 생성된 소개 파일을 가리키도록 `[소개](team/yujinchoe.md)`로 수정했다.
+- 충돌 마커를 제거하고 다음 명령으로 해결 내용을 커밋·푸시했다.
+
+```bash
+git add README.md
+git commit -m "fix: resolve README merge conflict"
+git push origin feature/yujinchoe-team-intro
+```
+
+#### 결과와 배운 점
+
+- `README.md`에서 두 변경의 목적을 모두 보존했고 충돌 마커를 제거했다.
+- `b867601`에서 README 충돌 마커를 제거하고 표 형식과 소개 링크를 보존한 것을 확인했다. 이후 main 변경으로 충돌이 다시 생길 수 있으므로 현재 병합 상태는 PR #16에서 확인한다.
+- 해결 커밋: [b867601](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc)
+- 같은 README 영역을 여러 작업이 수정하면 형식 변경도 충돌을 만들 수 있으므로, 작업 전에 최신 `main`을 반영하고 수정 범위를 공유해야 한다.
+
+#### 공통 기록 반영
+
+- 이 기록을 main에 반영할 때 기존 PR #15의 기록 #1과 번호가 겹쳤습니다. 두 기록을 각각 #1·#2로 보존하고, SUBMISSION의 다른 팀원 행도 유지했습니다.
+- 기록 반영 PR: [#20](https://github.com/book732/Codyssey_2-2/pull/20). 소개 PR #16의 병합 완료를 뜻하지 않습니다.
 
 ## 복사해서 사용할 양식
 
