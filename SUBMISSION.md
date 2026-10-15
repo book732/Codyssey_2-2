@@ -26,7 +26,7 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11), [#29](https://github.com/book732/Codyssey_2-2/issues/29) | [#13](https://github.com/book732/Codyssey_2-2/pull/13), [#30](https://github.com/book732/Codyssey_2-2/pull/30) |
 | yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21), [#23](https://github.com/book732/Codyssey_2-2/issues/23), [#31](https://github.com/book732/Codyssey_2-2/issues/31) | [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22), [#26](https://github.com/book732/Codyssey_2-2/pull/26), [#32](https://github.com/book732/Codyssey_2-2/pull/32) |
 
-- 현재 공통 문서 정리 작업: vivleon의 [#33](https://github.com/book732/Codyssey_2-2/issues/33). 이 작업의 PR 주소는 생성 후 추가합니다.
+- 현재 공통 문서 정리 작업: vivleon의 [Issue #33](https://github.com/book732/Codyssey_2-2/issues/33) · [PR #34](https://github.com/book732/Codyssey_2-2/pull/34). 리뷰·병합 대기이며 위 병합 개수에는 포함하지 않습니다.
 - 미병합으로 닫힌 PR: book732 [#7](https://github.com/book732/Codyssey_2-2/pull/7), yujinchoe [#16](https://github.com/book732/Codyssey_2-2/pull/16). 위 병합 개수에 포함하지 않습니다. 후속 작업은 각각 [#15](https://github.com/book732/Codyssey_2-2/pull/15), [#32](https://github.com/book732/Codyssey_2-2/pull/32)에서 병합됐습니다.
 - 공동 소개 작업 [#5](https://github.com/book732/Codyssey_2-2/issues/5)는 아직 열려 있고 이은서·최유진 체크가 남아 있습니다. 두 소개 파일은 이미 병합됐으므로 담당자와 체크 상태를 맞추면 됩니다.
 - 이전 소개 작업 [#6](https://github.com/book732/Codyssey_2-2/issues/6)도 열려 있습니다. 작성자가 후속 [#15](https://github.com/book732/Codyssey_2-2/pull/15)와 비교해 정리할 항목입니다.
