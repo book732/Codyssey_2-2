@@ -1,0 +1,103 @@
+git revert 실습 명령·출력 기록
+날짜: 2026-10-15 16:57 KST (07:57 UTC)
+담당: 나현준(vivleon), AI 도구 실행·기록 정리 보조
+저장소: https://github.com/book732/Codyssey_2-2
+브랜치: feature/vivleon-revert-practice
+Issue: https://github.com/book732/Codyssey_2-2/issues/24
+시작 커밋: 9ed1718ce84361750ebb1e0115e86059a056e024
+실습 커밋: 3449502195dfca605681bd02d90cd5628ce8d884
+취소 커밋: 6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8
+
+준비: 새 브랜치에서 src/revert-practice-vivleon.txt 파일에 다음 두 줄을 작성했다.
+Git revert 실습용 임시 파일입니다.
+원격에 push한 후 이 파일을 추가한 커밋을 취소합니다.
+
+아래 출력은 실제 수행 결과이며, 줄 끝 공백만 정리했다.
+출력이 없는 명령도 종료 코드로 결과를 확인할 수 있다.
+문서 커밋을 만들기 전 실습 직후에 기록했다.
+
+$ git status --porcelain=v1
+[exit 0]
+
+$ git rev-parse origin/main
+9ed1718ce84361750ebb1e0115e86059a056e024
+[exit 0]
+
+$ git switch -c feature/vivleon-revert-practice origin/main
+Switched to a new branch 'feature/vivleon-revert-practice'
+branch 'feature/vivleon-revert-practice' set up to track 'origin/main'.
+[exit 0]
+
+$ git add src/revert-practice-vivleon.txt
+[exit 0]
+
+$ git commit -m 'chore: add vivleon revert practice file'
+[feature/vivleon-revert-practice 3449502] chore: add vivleon revert practice file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 src/revert-practice-vivleon.txt
+[exit 0]
+
+$ git rev-parse HEAD
+3449502195dfca605681bd02d90cd5628ce8d884
+[exit 0]
+
+$ git push --set-upstream origin feature/vivleon-revert-practice
+remote:
+remote: Create a pull request for 'feature/vivleon-revert-practice' on GitHub by visiting:
+remote:      https://github.com/book732/Codyssey_2-2/pull/new/feature/vivleon-revert-practice
+remote:
+To https://github.com/book732/Codyssey_2-2.git
+ * [new branch]      feature/vivleon-revert-practice -> feature/vivleon-revert-practice
+branch 'feature/vivleon-revert-practice' set up to track 'origin/feature/vivleon-revert-practice'.
+[exit 0]
+
+$ gh api repos/book732/Codyssey_2-2/git/ref/heads/feature/vivleon-revert-practice --jq .object.sha
+3449502195dfca605681bd02d90cd5628ce8d884
+[exit 0]
+
+$ git show HEAD:src/revert-practice-vivleon.txt
+Git revert 실습용 임시 파일입니다.
+원격에 push한 후 이 파일을 추가한 커밋을 취소합니다.
+[exit 0]
+
+$ git revert --no-commit 3449502195dfca605681bd02d90cd5628ce8d884
+[exit 0]
+
+$ git diff --cached --stat
+ src/revert-practice-vivleon.txt | 2 --
+ 1 file changed, 2 deletions(-)
+[exit 0]
+
+$ git commit -m 'chore: revert pushed vivleon practice file' -m 'This reverts commit 3449502195dfca605681bd02d90cd5628ce8d884.'
+[feature/vivleon-revert-practice 6690b3b] chore: revert pushed vivleon practice file
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 src/revert-practice-vivleon.txt
+[exit 0]
+
+$ git rev-parse HEAD
+6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8
+[exit 0]
+
+$ git push origin feature/vivleon-revert-practice
+To https://github.com/book732/Codyssey_2-2.git
+   3449502..6690b3b  feature/vivleon-revert-practice -> feature/vivleon-revert-practice
+[exit 0]
+
+$ gh api repos/book732/Codyssey_2-2/git/ref/heads/feature/vivleon-revert-practice --jq .object.sha
+6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8
+[exit 0]
+
+$ git diff --exit-code 3449502195dfca605681bd02d90cd5628ce8d884^ 6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8
+[exit 0]
+
+$ git ls-tree --name-only HEAD src/revert-practice-vivleon.txt
+[exit 0]
+
+$ git status --porcelain=v1
+[exit 0]
+
+$ git log --oneline -3
+6690b3b chore: revert pushed vivleon practice file
+3449502 chore: add vivleon revert practice file
+9ed1718 Merge pull request #22 from book732/feature/yujinchoe-status-links
+[exit 0]
