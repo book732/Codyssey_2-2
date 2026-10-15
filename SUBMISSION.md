@@ -35,7 +35,7 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 - 이전 소개 작업 [#6](https://github.com/book732/Codyssey_2-2/issues/6)도 닫힌 상태입니다. 후속 [#15](https://github.com/book732/Codyssey_2-2/pull/15)는 병합됐습니다.
 - vivleon의 [Issue #24](https://github.com/book732/Codyssey_2-2/issues/24)는 실제 병합에 맞춰 마지막 체크와 '병합 대기' 표시를 갱신하고 증빙을 main 링크로 연결했습니다.
 
-- 평가 답변 공유 작업: vivleon의 [Issue #36](https://github.com/book732/Codyssey_2-2/issues/36). [답변 문서](docs/evaluation-answers.md)를 추가하는 작업으로, 위 병합 개수에는 포함하지 않습니다.
+- 평가 답변 공유 작업: vivleon의 [Issue #36](https://github.com/book732/Codyssey_2-2/issues/36) · [PR #37](https://github.com/book732/Codyssey_2-2/pull/37). [답변 문서](docs/evaluation-answers.md)를 추가하는 작업으로, 위 병합 개수에는 포함하지 않습니다. 승인·병합 상태는 PR 링크에서 확인합니다.
 
 ## 팀원별 최소 기준
 
