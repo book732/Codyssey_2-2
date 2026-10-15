@@ -21,6 +21,7 @@
 | [충돌 해결 기록](docs/conflict-resolution.md) | 실제 충돌 해결 기록과 추가 실습 양식 |
 | [트러블슈팅 기록](docs/troubleshooting-log.md) | Git 명령의 실제 실습 기록과 추가 실습 양식 |
 | [제출물 인덱스](SUBMISSION.md) | 팀원별 Issue·PR·리뷰와 제출 증빙 링크 |
+| [평가 질문과 답변](docs/evaluation-answers.md) | 질문 22개에 대한 쉬운 답변, 실제 기록 링크와 남은 보완 항목 |
 | [실습·히스토리 증빙](docs/evidence/README.md) | 실제 증빙 파일과 히스토리 갱신 방법 |
 | [AI 도구 작업 안내](AGENTS.md) | AI와 작업할 때 함께 지킬 규칙 |
 
