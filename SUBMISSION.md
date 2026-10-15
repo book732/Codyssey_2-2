@@ -23,7 +23,7 @@
 | book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7), [#15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18) |
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11) | [#13](https://github.com/book732/Codyssey_2-2/pull/13) |
-| yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21) | [#16](https://github.com/book732/Codyssey_2-2/pull/16), [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22) |
+| yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21), [#23](https://github.com/book732/Codyssey_2-2/issues/23) | [#16](https://github.com/book732/Codyssey_2-2/pull/16), [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22), [#26](https://github.com/book732/Codyssey_2-2/pull/26) |
 
 ## 리뷰와 리뷰 반영 증빙
 
@@ -62,7 +62,7 @@
 | 충돌 해결 1회차 | [실제 기록 #1](docs/conflict-resolution.md#conflict-1) | 비자명 충돌 해결 · [PR #15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | 충돌 해결 2회차 | [실제 기록 #2](docs/conflict-resolution.md#conflict-2) | 비자명 충돌 해결 기록 · [PR #16](https://github.com/book732/Codyssey_2-2/pull/16), [기록 PR #20](https://github.com/book732/Codyssey_2-2/pull/20), [해결 커밋](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc) |
 | `git commit --amend` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
-| `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
+| `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 실습 완료·리뷰 대기 · [PR #26](https://github.com/book732/Codyssey_2-2/pull/26) |
 | `git revert` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 | `git stash` / `git stash pop` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 
