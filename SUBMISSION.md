@@ -20,7 +20,7 @@
 
 | 팀원 | 내가 만든 Issue | 내가 만든 PR |
 | --- | --- | --- |
-| book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7) |
+| book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7) |
 | vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12) |
 | Eunseo-415 | 본인이 링크 추가 | 본인이 링크 추가 |
 | yujinchoe | 본인이 링크 추가 | 본인이 링크 추가 |
