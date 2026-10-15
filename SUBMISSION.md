@@ -7,6 +7,8 @@
 - 후속 확인: 2026-10-15 17:48(한국 시간), vivleon의 PR #12·#18·#27 답변과 Issue #5·#6·#24 상태 반영.
 - **전체 요구사항 완료는 아직 아닙니다.** 아래 표는 실제 GitHub 기록 기준이며, 현재 문서 정리 PR의 승인·병합은 별도로 필요합니다.
 
+평가 준비용 [질문 22개와 답변](docs/evaluation-answers.md)은 PR #35 병합 시점(`f5349b2`)을 기준으로 합니다. 아래 이전 점검 표와 기준 시점이 다르며, 최신 확인 내용과 남은 보완 사항은 답변 문서에 구분했습니다.
+
 ## 팀원 소개와 기여 커밋
 
 | 이름 | GitHub | 역할 | 소개 파일 | 본인 기여 증빙 |
@@ -23,7 +25,7 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 | 팀원 | 본인 작업 Issue | 병합된 본인 PR |
 | --- | --- | --- |
 | book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14), [#25](https://github.com/book732/Codyssey_2-2/issues/25) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#15](https://github.com/book732/Codyssey_2-2/pull/15), [#28](https://github.com/book732/Codyssey_2-2/pull/28) |
-| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17), [#24](https://github.com/book732/Codyssey_2-2/issues/24), [#33](https://github.com/book732/Codyssey_2-2/issues/33) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18), [#27](https://github.com/book732/Codyssey_2-2/pull/27) |
+| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17), [#24](https://github.com/book732/Codyssey_2-2/issues/24), [#33](https://github.com/book732/Codyssey_2-2/issues/33), [#36](https://github.com/book732/Codyssey_2-2/issues/36) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18), [#27](https://github.com/book732/Codyssey_2-2/pull/27) |
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11), [#29](https://github.com/book732/Codyssey_2-2/issues/29) | [#13](https://github.com/book732/Codyssey_2-2/pull/13), [#30](https://github.com/book732/Codyssey_2-2/pull/30) |
 | yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21), [#23](https://github.com/book732/Codyssey_2-2/issues/23), [#31](https://github.com/book732/Codyssey_2-2/issues/31) | [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22), [#26](https://github.com/book732/Codyssey_2-2/pull/26), [#32](https://github.com/book732/Codyssey_2-2/pull/32) |
 
@@ -32,6 +34,8 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 - 공동 소개 작업 [#5](https://github.com/book732/Codyssey_2-2/issues/5)는 네 명 모두 체크된 뒤 닫혔습니다. 추가 작업은 필요 없습니다.
 - 이전 소개 작업 [#6](https://github.com/book732/Codyssey_2-2/issues/6)도 닫힌 상태입니다. 후속 [#15](https://github.com/book732/Codyssey_2-2/pull/15)는 병합됐습니다.
 - vivleon의 [Issue #24](https://github.com/book732/Codyssey_2-2/issues/24)는 실제 병합에 맞춰 마지막 체크와 '병합 대기' 표시를 갱신하고 증빙을 main 링크로 연결했습니다.
+
+- 평가 답변 공유 작업: vivleon의 [Issue #36](https://github.com/book732/Codyssey_2-2/issues/36). [답변 문서](docs/evaluation-answers.md)를 추가하는 작업으로, 위 병합 개수에는 포함하지 않습니다.
 
 ## 팀원별 최소 기준
 
@@ -58,6 +62,7 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 ## 공통 문서와 증빙
 
 - [프로젝트 안내](README.md)
+- [평가 질문과 답변](docs/evaluation-answers.md)
 - [협업 가이드](docs/CONTRIBUTING.md)
 - [충돌 해결 기록](docs/conflict-resolution.md)
 - [Git 트러블슈팅 기록](docs/troubleshooting-log.md)
