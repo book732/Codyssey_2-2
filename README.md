@@ -1,7 +1,48 @@
-﻿# Codyssey 2-2
+# Codyssey 2-2
+
+초보자 4명이 Issue, 브랜치, PR, 코드 리뷰를 통해 Git 협업을 연습하는 프로젝트입니다. 결과물은 **B: 팀 소개**입니다.
+
+소개글을 함께 완성하고, 충돌 해결과 Git 트러블슈팅 과정을 실제로 연습해 기록합니다. `src/practice.txt`는 충돌 실습용 예시 파일입니다.
 
 ## 팀원 소개
 
-- [정근혁 (book732, 팀장)](team/book732.md)
-- [나현준 (vivleon)](team/vivleon.md)
-- [최유진 (yujinchoe)](team/yujinchoe.md)
+| 이름 | GitHub | 역할 | 소개 파일 |
+| --- | --- | --- | --- |
+| 정근혁 | book732 | 팀장 | [소개](team/book732.md) |
+| 나현준 | vivleon | 팀원 | [소개](team/vivleon.md) |
+| 이은서 | Eunseo-415 | 팀원 | 작성 예정: [Issue #5](https://github.com/book732/Codyssey_2-2/issues/5) |
+| 최유진 | yujinchoe | 팀원 | [소개](team/yujinchoe.md) |
+
+## 공통 문서
+
+| 문서 | 확인할 내용 |
+| --- | --- |
+| [협업 가이드](docs/CONTRIBUTING.md) | 브랜치, 커밋, PR, 리뷰, 문서 갱신 규칙 |
+| [충돌 해결 기록](docs/conflict-resolution.md) | 충돌 실습을 마친 뒤 작성할 양식 |
+| [트러블슈팅 기록](docs/troubleshooting-log.md) | Git 명령 실습을 마친 뒤 작성할 양식 |
+| [제출물 인덱스](SUBMISSION.md) | 팀원별 Issue·PR·리뷰와 제출 증빙 링크 |
+| [히스토리 증빙 안내](docs/evidence/README.md) | 제출 전 Git 히스토리를 저장하는 방법 |
+| [AI 도구 작업 안내](AGENTS.md) | AI와 작업할 때 함께 지킬 규칙 |
+
+`team/`에는 소개 파일, `docs/`에는 공통 문서, `src/`에는 간단한 실습 파일을 둡니다. 충돌·트러블슈팅 문서는 현재 양식이며, 양식을 만든 것만으로 실습이 완료되지는 않습니다.
+
+## 작업 시작과 마무리
+
+1. 협업 가이드와 맡은 Issue를 읽고 `feature/<github-id>-<task>` 브랜치를 만듭니다.
+2. 맡은 파일을 수정하고 관련 문서도 함께 확인합니다.
+3. PR에 변경 사항·이유·확인 방법을 적고 다른 팀원에게 리뷰를 받습니다.
+4. 리뷰를 반영하고, 본인 Issue·PR·리뷰 링크를 제출물 인덱스에 갱신합니다.
+
+기록 양식의 빈칸은 실제 실습 후 참여자와 명령, 결과, PR·커밋 링크로 채웁니다.
+
+## AI 도구와 작업할 때
+
+AI 도구마다 안내 파일을 읽는 방식이 다릅니다. 작업을 요청할 때 아래 내용도 함께 전달해 주세요.
+
+```text
+먼저 AGENTS.md, docs/CONTRIBUTING.md, SUBMISSION.md를 읽어줘.
+관련 Issue와 열린 PR을 확인하고 다른 팀원의 작업은 보존해줘.
+파일을 수정하면 README, 협업 가이드, 제출물 인덱스 등 관련 문서도 함께 갱신해줘.
+충돌·트러블슈팅 기록은 실제로 수행한 내용만 적어줘.
+마지막에는 확인한 내용과 바꾼 문서를 PR 본문에 적어줘.
+```
