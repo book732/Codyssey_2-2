@@ -12,7 +12,7 @@
 | 정근혁 | book732 | 팀장 | [book732.md](team/book732.md) |
 | 나현준 | vivleon | 팀원 | [vivleon.md](team/vivleon.md) |
 | 이은서 | Eunseo-415 | 팀원 | 생성 예정 |
-| 최유진 | yujinchoe | 팀원 | 생성 예정 |
+| 최유진 | yujinchoe | 팀원 | PR #16에서 생성 |
 
 ## 개인별 Issue와 PR
 
@@ -59,7 +59,7 @@
 
 | 실습 | 기록 문서 | 상태와 증빙 |
 | --- | --- | --- |
-| 충돌 해결 1회차 | [충돌 해결 기록](docs/conflict-resolution.md) | 미실습 · PR/커밋 링크 추가 예정 |
+| 충돌 해결 1회차 | [충돌 해결 기록](docs/conflict-resolution.md) | 완료 · [PR #16](https://github.com/book732/Codyssey_2-2/pull/16), [커밋](https://github.com/book732/Codyssey_2-2/commit/b867601) |
 | 충돌 해결 2회차 | [충돌 해결 기록](docs/conflict-resolution.md) | 미실습 · PR/커밋 링크 추가 예정 |
 | `git commit --amend` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 | `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
