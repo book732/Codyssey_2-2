@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | 정근혁 | book732 | 팀장 | [소개](team/book732.md) |
 | 나현준 | vivleon | 팀원 | [소개](team/vivleon.md) |
-| 이은서 | Eunseo-415 | 팀원 | 작성 예정: [Issue #5](https://github.com/book732/Codyssey_2-2/issues/5) |
+| 이은서 | Eunseo-415 | 팀원 | [소개](team/eunseo-415.md) |
 | 최유진 | yujinchoe | 팀원 | 작성 예정: [Issue #5](https://github.com/book732/Codyssey_2-2/issues/5) |
 
 ## 공통 문서

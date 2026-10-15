@@ -11,7 +11,7 @@
 | --- | --- | --- | --- |
 | 정근혁 | book732 | 팀장 | [book732.md](team/book732.md) |
 | 나현준 | vivleon | 팀원 | [vivleon.md](team/vivleon.md) |
-| 이은서 | Eunseo-415 | 팀원 | 생성 예정 |
+| 이은서 | Eunseo-415 | 팀원 | [eunseo-415.md](team/eunseo-415.md) |
 | 최유진 | yujinchoe | 팀원 | 생성 예정 |
 
 ## 개인별 Issue와 PR
@@ -21,8 +21,8 @@
 | 팀원 | 내가 만든 Issue | 내가 만든 PR |
 | --- | --- | --- |
 | book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7) |
-| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12) |
-| Eunseo-415 | 본인이 링크 추가 | 본인이 링크 추가 |
+| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18) |
+| Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11) | [#13](https://github.com/book732/Codyssey_2-2/pull/13) |
 | yujinchoe | 본인이 링크 추가 | 본인이 링크 추가 |
 
 ## 리뷰와 리뷰 반영 증빙
@@ -30,7 +30,7 @@
 | 팀원 | 다른 팀원 PR에 작성한 리뷰 | 내 PR에서 리뷰를 반영한 기록 |
 | --- | --- | --- |
 | book732 | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
-| vivleon | [PR #4 리뷰](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445), [PR #4 승인](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529070981), [PR #7 리뷰](https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929) | [PR #9 답글](https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422): 요청 확인과 점검 결과를 답변한 기록. 소개 파일 수정 커밋을 뜻하지 않음 |
+| vivleon | [PR #4 리뷰](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445), [PR #4 승인](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529070981), [PR #7 리뷰](https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929), [PR #16 리뷰](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773) | [PR #9 답글](https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422): 요청 확인과 점검 결과를 답변한 기록. 소개 파일 수정 커밋을 뜻하지 않음 |
 | Eunseo-415 | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
 | yujinchoe | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
 
