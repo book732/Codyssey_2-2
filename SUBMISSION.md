@@ -32,7 +32,7 @@
 | book732 | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
 | vivleon | [PR #4 리뷰](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445), [PR #4 승인](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529070981), [PR #7 리뷰](https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929), [PR #16 리뷰](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773) | [PR #9 답글](https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422): 요청 확인과 점검 결과를 답변한 기록. 소개 파일 수정 커밋을 뜻하지 않음 |
 | Eunseo-415 | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
-| yujinchoe | 본인이 링크 추가 | 본인이 수정 커밋·답글 링크 추가 |
+| yujinchoe | [PR #27 리뷰](https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146), [PR #28 리뷰](https://github.com/book732/Codyssey_2-2/pull/28#pullrequestreview-5529975026) | [PR #16 리뷰 반영](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773) → [수정 커밋](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc), [PR #22 답글](https://github.com/book732/Codyssey_2-2/pull/22#issuecomment-6187274792) |
 
 팀장도 포함해 **각자** 아래 기준을 확인합니다.
 
