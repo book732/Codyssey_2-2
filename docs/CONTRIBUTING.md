@@ -31,4 +31,6 @@ Issue 하나마다 최신 `main`에서 브랜치를 하나 만듭니다. 이름�
 | `docs` | 문서 작성·수정 | `docs: add commit message convention` |
 | `chore` | 설정·정리 작업 | `chore: update gitignore` |
 
+`update`, `fix`처럼 한 단어만 적으면 무엇을 바꿨는지 알 수 없으므로 피합니다. 예를 들어 `update` 대신 `docs: clarify branch naming rules`, `fix` 대신 `fix: correct broken profile link`처럼 변경 내용을 명시합니다.
+
 한 커밋에는 한 가지 목적의 변경만 담습니다. 관련 Issue는 PR 설명에 `Closes #이슈번호`로 연결합니다.
