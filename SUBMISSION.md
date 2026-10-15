@@ -23,7 +23,7 @@
 | book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7), [#15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18) |
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11) | [#13](https://github.com/book732/Codyssey_2-2/pull/13) |
-| yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19) | [#16](https://github.com/book732/Codyssey_2-2/pull/16), [#20](https://github.com/book732/Codyssey_2-2/pull/20) |
+| yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21) | [#16](https://github.com/book732/Codyssey_2-2/pull/16), [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22) |
 
 ## 리뷰와 리뷰 반영 증빙
 
