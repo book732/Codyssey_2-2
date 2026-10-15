@@ -21,7 +21,7 @@
 | 팀원 | 내가 만든 Issue | 내가 만든 PR |
 | --- | --- | --- |
 | book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7), [#15](https://github.com/book732/Codyssey_2-2/pull/15) |
-| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17), [#24](https://github.com/book732/Codyssey_2-2/issues/24) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18) |
+| vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17), [#24](https://github.com/book732/Codyssey_2-2/issues/24) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18), [#27](https://github.com/book732/Codyssey_2-2/pull/27) |
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11) | [#13](https://github.com/book732/Codyssey_2-2/pull/13) |
 | yujinchoe | [#19](https://github.com/book732/Codyssey_2-2/issues/19), [#21](https://github.com/book732/Codyssey_2-2/issues/21) | [#16](https://github.com/book732/Codyssey_2-2/pull/16), [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#22](https://github.com/book732/Codyssey_2-2/pull/22) |
 
@@ -63,7 +63,7 @@
 | 충돌 해결 2회차 | [실제 기록 #2](docs/conflict-resolution.md#conflict-2) | 비자명 충돌 해결 기록 · [PR #16](https://github.com/book732/Codyssey_2-2/pull/16), [기록 PR #20](https://github.com/book732/Codyssey_2-2/pull/20), [해결 커밋](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc) |
 | `git commit --amend` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 | `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
-| `git revert` | [나현준(vivleon)의 실습·기록](docs/troubleshooting-log.md#revert-vivleon) | 실습 완료 · PR 검토 대기 · [실습 커밋](https://github.com/book732/Codyssey_2-2/commit/3449502195dfca605681bd02d90cd5628ce8d884), [취소 커밋](https://github.com/book732/Codyssey_2-2/commit/6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8), [명령·출력](docs/evidence/revert-vivleon.txt) |
+| `git revert` | [나현준(vivleon)의 실습·기록](docs/troubleshooting-log.md#revert-vivleon) | 실습 완료 · [PR #27](https://github.com/book732/Codyssey_2-2/pull/27) 검토 대기 · [실습 커밋](https://github.com/book732/Codyssey_2-2/commit/3449502195dfca605681bd02d90cd5628ce8d884), [취소 커밋](https://github.com/book732/Codyssey_2-2/commit/6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8), [명령·출력](docs/evidence/revert-vivleon.txt) |
 | `git stash` / `git stash pop` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 
 충돌 2회 중 최소 1회는 같은 파일의 같은 부분을 다르게 고치거나, 파일 이동·삭제와 내용 수정이 겹치는 **비자명 충돌**이어야 합니다. 어느 기록이 해당하는지 실제 실습 후 적습니다.

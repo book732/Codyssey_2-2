@@ -25,7 +25,7 @@
 
 - 날짜: 2026-10-15 16:57 (한국 시간)
 - 실습·기록 담당: 나현준(vivleon). 명령 실행과 기록 정리는 AI 도구의 도움을 받았습니다.
-- 팀원 검토: PR에서 검토 요청 예정이며, 아직 승인받은 상태는 아닙니다.
+- 팀원 검토: [PR #27](https://github.com/book732/Codyssey_2-2/pull/27)에서 팀장 book732에게 요청했으며, 아직 승인받은 상태는 아닙니다.
 - 브랜치: `feature/vivleon-revert-practice`
 - 실습 파일: `src/revert-practice-vivleon.txt` (취소 후에는 파일이 없어집니다.)
 - 연결 Issue: [#24](https://github.com/book732/Codyssey_2-2/issues/24)
