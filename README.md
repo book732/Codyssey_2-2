@@ -4,3 +4,4 @@
 
 - [정근혁 (book732, 팀장)](team/book732.md)
 - [나현준 (vivleon)](team/vivleon.md)
+- [최유진 (yujinchoe)](team/yujinchoe.md)
