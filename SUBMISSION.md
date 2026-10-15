@@ -57,6 +57,7 @@
 
 ## 팀 실습 증빙
 
+실제 충돌 해결 2건을 기록했습니다. 각 원본 PR의 현재 병합 상태는 링크에서 확인합니다. Git 트러블슈팅은 `git commit --amend`를 실습했고 나머지 3종은 아직 미실습 상태이며, 실제로 수행한 내용만 추가합니다.
 실제 충돌 해결 2건을 기록했습니다. 각 원본 PR의 현재 병합 상태는 링크에서 확인합니다. Git 트러블슈팅의 수행 여부와 증빙은 아래 표에서 확인하며, 실제로 수행한 내용만 추가합니다.
 실제 충돌 해결 2건을 기록했습니다. 각 원본 PR의 현재 병합 상태는 링크에서 확인합니다. Git 트러블슈팅은 `reset --soft`, `revert`, `stash / stash pop` 3종의 실습 기록이 있으며, `amend`는 아직 미실습입니다.
 실제 충돌 해결 2건을 기록했습니다. 각 원본 PR의 현재 병합 상태는 링크에서 확인합니다. Git 트러블슈팅 중 `stash` / `stash pop` 1건을 실습했고 나머지 3종은 아직 미실습입니다.
@@ -65,6 +66,7 @@
 | --- | --- | --- |
 | 충돌 해결 1회차 | [실제 기록 #1](docs/conflict-resolution.md#conflict-1) | 비자명 충돌 해결 · [PR #15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | 충돌 해결 2회차 | [실제 기록 #2](docs/conflict-resolution.md#conflict-2) | 비자명 충돌 해결 기록 · [PR #16](https://github.com/book732/Codyssey_2-2/pull/16), [기록 PR #20](https://github.com/book732/Codyssey_2-2/pull/20), [해결 커밋](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc) |
+| `git commit --amend` | [실제 기록](docs/troubleshooting-log.md#amend) | 실습함 · 작성·실습 이은서 · [스크린샷](docs/evidence/amend.png) · PR 링크 추가 예정 |
 | `git commit --amend` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 | `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 실습 완료·리뷰 대기 · [PR #26](https://github.com/book732/Codyssey_2-2/pull/26) |
 | `git revert` | [나현준 실습 PR #27](https://github.com/book732/Codyssey_2-2/pull/27) | 실습 완료·PR 검토 대기 · [Issue #24](https://github.com/book732/Codyssey_2-2/issues/24) |
