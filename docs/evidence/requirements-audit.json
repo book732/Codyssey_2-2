@@ -1,0 +1,654 @@
+{
+  "checked_at_utc": "2026-10-15T08:36:02.896221+00:00",
+  "base_main": "d6f517c4634dde58021187a33a7010455c32a717",
+  "member_evidence": {
+    "repository": "https://github.com/book732/Codyssey_2-2",
+    "captured_at_utc": "2026-10-15T08:36:02.896221+00:00",
+    "scope": "Read-only live audit of authored merged PRs, substantive unique-PR reviews, and author-review interactions.",
+    "method": {
+      "exclude_own_pr_reviews": true,
+      "deduplicate_comment_and_approval_on_same_pr": true,
+      "exclude_empty_approval_and_generic_confirmation": true,
+      "closed_unmerged_pr_reviews_can_count": true,
+      "positive_specific_reviews": "Classified separately when borderline; no grading certainty inferred.",
+      "pagination_truncation_paths": []
+    },
+    "members": {
+      "book732": {
+        "merged_authored_count": 4,
+        "merged_authored_prs": [
+          2,
+          4,
+          15,
+          28
+        ],
+        "merged_requirement_met": true,
+        "clear_substantive_review_count": 3,
+        "clear_substantive_reviews": [
+          {
+            "pr": 9,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/9#pullrequestreview-5529151005"
+          },
+          {
+            "pr": 18,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/18#pullrequestreview-5529485999"
+          },
+          {
+            "pr": 22,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529838008"
+          }
+        ],
+        "additional_borderline_reviews": [
+          {
+            "pr": 12,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/12#pullrequestreview-5529290956"
+          },
+          {
+            "pr": 13,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/13#pullrequestreview-5529311696"
+          }
+        ],
+        "substantive_review_requirement_met": true,
+        "own_pr_review_reflection": {
+          "status": "confirmed",
+          "pr": 4,
+          "review": "https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445",
+          "evidence": "https://github.com/book732/Codyssey_2-2/commit/2a692af990676f9280449162831a3d384e7fc1bd",
+          "reason": "Review requested concrete commit-message examples; author added them after review, and reviewer verified the change."
+        }
+      },
+      "vivleon": {
+        "merged_authored_count": 4,
+        "merged_authored_prs": [
+          9,
+          12,
+          18,
+          27
+        ],
+        "merged_requirement_met": true,
+        "clear_substantive_review_count": 6,
+        "clear_substantive_reviews": [
+          {
+            "pr": 4,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445"
+          },
+          {
+            "pr": 7,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929"
+          },
+          {
+            "pr": 16,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773"
+          },
+          {
+            "pr": 20,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/20#pullrequestreview-5529617471"
+          },
+          {
+            "pr": 22,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529841019"
+          },
+          {
+            "pr": 26,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530004211"
+          }
+        ],
+        "additional_borderline_reviews": [
+          {
+            "pr": 30,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/30#pullrequestreview-5530228200"
+          }
+        ],
+        "substantive_review_requirement_met": true,
+        "own_pr_review_reflection": {
+          "status": "confirmed",
+          "pr": 9,
+          "review": "https://github.com/book732/Codyssey_2-2/pull/9#pullrequestreview-5529151005",
+          "evidence": "https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422",
+          "reason": "Author replied to reviewer and reported issue-checklist update. This is response evidence, not a profile-content change."
+        }
+      },
+      "Eunseo-415": {
+        "merged_authored_count": 2,
+        "merged_authored_prs": [
+          13,
+          30
+        ],
+        "merged_requirement_met": true,
+        "clear_substantive_review_count": 2,
+        "clear_substantive_reviews": [
+          {
+            "pr": 15,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/15#pullrequestreview-5529364748"
+          },
+          {
+            "pr": 16,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529392124"
+          }
+        ],
+        "additional_borderline_reviews": [],
+        "substantive_review_requirement_met": true,
+        "own_pr_review_reflection": {
+          "status": "not_proven",
+          "prs_checked": [
+            13,
+            30
+          ],
+          "reason": "No author reply or author-authored response commit after review found on either authored PR. PR #30 last commit at 08:22:57Z precedes review at 08:28:05Z."
+        }
+      },
+      "yujinchoe": {
+        "merged_authored_count": 4,
+        "merged_authored_prs": [
+          20,
+          22,
+          26,
+          32
+        ],
+        "merged_requirement_met": true,
+        "clear_substantive_review_count": 2,
+        "clear_substantive_reviews": [
+          {
+            "pr": 27,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146"
+          },
+          {
+            "pr": 28,
+            "url": "https://github.com/book732/Codyssey_2-2/pull/28#pullrequestreview-5529975026"
+          }
+        ],
+        "additional_borderline_reviews": [],
+        "substantive_review_requirement_met": true,
+        "own_pr_review_reflection": {
+          "status": "confirmed",
+          "pr": 22,
+          "review": "https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529841019",
+          "evidence": "https://github.com/book732/Codyssey_2-2/pull/22#issuecomment-6187274792",
+          "commit": "https://github.com/book732/Codyssey_2-2/commit/d1df352cdef77e1ec28581299f131bbfb98506b9",
+          "reason": "Author added Issue #21/PR #22 links after request and replied with the commit hash."
+        }
+      }
+    },
+    "merged_pr_audit": [
+      {
+        "number": 2,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/2",
+        "author": "book732",
+        "substantive_comment_quality": "missing",
+        "author_reviewer_interaction": "missing",
+        "assessment": "Empty approval only; no substantive review comment or author interaction.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/2#pullrequestreview-5528880229"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 4,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/4",
+        "author": "book732",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Requested commit-message examples added by author and verified in later approval.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445",
+          "https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529070981"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 9,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/9",
+        "author": "vivleon",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Author replied to review and confirmed checklist update.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/9#pullrequestreview-5529151005"
+        ],
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422"
+        ]
+      },
+      {
+        "number": 12,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/12",
+        "author": "vivleon",
+        "substantive_comment_quality": "borderline_positive",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Specific positive review exists, but no author reply or post-review change recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/12#pullrequestreview-5529290956"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 13,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/13",
+        "author": "Eunseo-415",
+        "substantive_comment_quality": "borderline_positive",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Positive content assessment is borderline for substantive review; no author interaction recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/13#pullrequestreview-5529311696"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 15,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/15",
+        "author": "book732",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Inline request asks for company/work details; no author reply or profile change addressing it recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/15#pullrequestreview-5529364748"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 18,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/18",
+        "author": "vivleon",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Specific factual review exists; no author reply or post-review change recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/18#pullrequestreview-5529485999"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 20,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/20",
+        "author": "yujinchoe",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Reviewer asked author to confirm recorded commands; no author response recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/20#pullrequestreview-5529617471"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 22,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/22",
+        "author": "yujinchoe",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Requested links added by author and author replied with commit hash.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529838008",
+          "https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529841019"
+        ],
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/22#issuecomment-6187274792"
+        ]
+      },
+      {
+        "number": 26,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/26",
+        "author": "yujinchoe",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Requested status wording updated by author and author replied with commit hash; later duplication suggestion remains for current cleanup.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530004211",
+          "https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530090763"
+        ],
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/26#issuecomment-6187541103"
+        ]
+      },
+      {
+        "number": 27,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/27",
+        "author": "vivleon",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "partial_not_proven",
+        "assessment": "Post-review merge commit 621911f integrates other practice records, but duplicate/stale status text remained; no author reply recorded. Do not claim full review-request resolution.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 28,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/28",
+        "author": "book732",
+        "substantive_comment_quality": "clear",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Substantive review exists; all PR commits precede review, and no author reply recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/28#pullrequestreview-5529975026"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 30,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/30",
+        "author": "Eunseo-415",
+        "substantive_comment_quality": "borderline_positive",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Current review body only confirms screenshot changes; all commits precede review and no author reply recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/30#pullrequestreview-5530228200",
+          "https://github.com/book732/Codyssey_2-2/pull/30#pullrequestreview-5530279944"
+        ],
+        "author_reply_urls": []
+      },
+      {
+        "number": 32,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/32",
+        "author": "yujinchoe",
+        "substantive_comment_quality": "generic_confirmation",
+        "author_reviewer_interaction": "not_proven",
+        "assessment": "Brief generic confirmation/approval only; no author interaction recorded.",
+        "review_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/32#pullrequestreview-5530275934"
+        ],
+        "author_reply_urls": []
+      }
+    ],
+    "all_requirements_complete": false,
+    "remaining_member_gap": "Eunseo-415 own-PR review reflection/response not proven.",
+    "remaining_per_pr_gap": "Several merged PRs lack author/reviewer interaction; PR #2 lacks substantive review content and PR #32 only has generic confirmation."
+  },
+  "repository_evidence": {
+    "collaborators": [
+      {
+        "login": "vivleon",
+        "role_name": "write",
+        "permissions": {
+          "admin": false,
+          "maintain": false,
+          "push": true,
+          "triage": true,
+          "pull": true
+        }
+      },
+      {
+        "login": "Eunseo-415",
+        "role_name": "write",
+        "permissions": {
+          "admin": false,
+          "maintain": false,
+          "push": true,
+          "triage": true,
+          "pull": true
+        }
+      },
+      {
+        "login": "yujinchoe",
+        "role_name": "write",
+        "permissions": {
+          "admin": false,
+          "maintain": false,
+          "push": true,
+          "triage": true,
+          "pull": true
+        }
+      },
+      {
+        "login": "book732",
+        "role_name": "admin",
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "push": true,
+          "triage": true,
+          "pull": true
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "deletion",
+        "ruleset_source_type": "Repository",
+        "ruleset_source": "book732/Codyssey_2-2",
+        "ruleset_id": 25139963
+      },
+      {
+        "type": "non_fast_forward",
+        "ruleset_source_type": "Repository",
+        "ruleset_source": "book732/Codyssey_2-2",
+        "ruleset_id": 25139963
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 1,
+          "dismiss_stale_reviews_on_push": false,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": false,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": true,
+          "allowed_merge_methods": [
+            "merge",
+            "squash",
+            "rebase"
+          ]
+        },
+        "ruleset_source_type": "Repository",
+        "ruleset_source": "book732/Codyssey_2-2",
+        "ruleset_id": 25139963
+      }
+    ],
+    "summary": {
+      "collaborators_four": true,
+      "issue_linkage_all_merged_prs": true,
+      "body_what_why_how_missing_prs": [
+        13
+      ],
+      "feature_prefix_all_prs": true,
+      "exact_github_id_historical_exception": {
+        "pull": 13,
+        "observed": "feature/eunseo-team-intro",
+        "required": "feature/eunseo-415-<task>"
+      },
+      "first_parent_main_commits": [
+        {
+          "sha": "d6f517c4634dde58021187a33a7010455c32a717",
+          "parents_count": 2,
+          "subject": "Merge pull request #30 from book732/feature/eunseo-415-amend-practice"
+        },
+        {
+          "sha": "4cbb1b129d549b9fb4d3605ad05a335acaf89609",
+          "parents_count": 2,
+          "subject": "Merge pull request #32 from book732/feature/yujinchoe-team-intro-v2"
+        },
+        {
+          "sha": "96a2ea1ff94600a7e6461df3e0f932e08c8c4384",
+          "parents_count": 2,
+          "subject": "Merge pull request #27 from book732/feature/vivleon-revert-practice"
+        },
+        {
+          "sha": "bff774b631f429cfcd971c143002f4c614359aa2",
+          "parents_count": 2,
+          "subject": "Merge pull request #26 from book732/feature/yujinchoe-soft-reset-log"
+        },
+        {
+          "sha": "0eb19baba674ba177cdf2b1478621c98b28f06be",
+          "parents_count": 2,
+          "subject": "Merge pull request #28 from book732/feature/book732-stash-practice"
+        },
+        {
+          "sha": "9ed1718ce84361750ebb1e0115e86059a056e024",
+          "parents_count": 2,
+          "subject": "Merge pull request #22 from book732/feature/yujinchoe-status-links"
+        },
+        {
+          "sha": "b869bf2725920c9c583933e9ac07b1f5b7dadfbb",
+          "parents_count": 2,
+          "subject": "Merge pull request #20 from book732/feature/yujinchoe-conflict-log"
+        },
+        {
+          "sha": "603d4090c5993a86e9295aba633c2f0a9c751221",
+          "parents_count": 2,
+          "subject": "Merge pull request #15 from book732/feature/book732-turkey-experience"
+        },
+        {
+          "sha": "6c8f8ee3f889e773bda955e923903a551bfa64d8",
+          "parents_count": 2,
+          "subject": "Merge pull request #18 from book732/feature/vivleon-sync-team-docs"
+        },
+        {
+          "sha": "de929ea87a3c08cd7c53d6dba1ea608d5282c799",
+          "parents_count": 2,
+          "subject": "Merge pull request #13 from book732/feature/eunseo-team-intro"
+        },
+        {
+          "sha": "8405a0dddd4f4d612feb635719c8d550b3e2d789",
+          "parents_count": 2,
+          "subject": "Merge pull request #12 from book732/feature/vivleon-common-docs"
+        },
+        {
+          "sha": "fd630d06ded113f7f9c2b78a37ca9c6ccf90b8c6",
+          "parents_count": 2,
+          "subject": "Merge pull request #9 from book732/feature/vivleon-team-intro"
+        },
+        {
+          "sha": "a1a422fd25fca5e0ce8073c0446096c68aeed598",
+          "parents_count": 2,
+          "subject": "Merge pull request #4 from book732/feature/book732-github-flow-guide"
+        },
+        {
+          "sha": "55cd73def67c6a86d1e12646b1ff8bce8cd2e634",
+          "parents_count": 2,
+          "subject": "Merge pull request #2 from book732/feature/book732-team-intro"
+        },
+        {
+          "sha": "36f6b750672b3755d24d11500135a3e4291c61a2",
+          "parents_count": 0,
+          "subject": "chore: initialize repository"
+        }
+      ],
+      "main_first_parent_merge_count": 14,
+      "merged_pr_count": 14,
+      "main_initial_commit": "36f6b75",
+      "history_limit": "Current DAG and active protections support current workflow; past forced pushes or rebases cannot be conclusively excluded without ref/audit history.",
+      "commit_messages": "Reachable main subjects describe changes; automatic merge messages and initial setup also present. No isolated update/fix/temp/wip/final subject in current main history.",
+      "guide_coverage": {
+        "branch_pointer_explanation": true,
+        "github_flow_main_feature_pr": true,
+        "feature_naming": true,
+        "github_flow_reason_within_three_lines": true,
+        "commit_convention_and_meaningless_examples": true,
+        "pr_what_why_how_and_closes": true,
+        "review_substantive_and_interaction": true,
+        "conflict_notification_owner_resolution_record": true,
+        "no_shared_history_rewrite": true,
+        "amend_reset_local_only_revert_pushed": true,
+        "all_four_practice_allocation": true,
+        "ai_doc_sync": true
+      }
+    }
+  },
+  "practice_evidence": {
+    "repository": "https://github.com/book732/Codyssey_2-2",
+    "main_commit": "d6f517c4634dde58021187a33a7010455c32a717",
+    "scope": "Practice and team-introduction delivery only; no GitHub writes or source edits",
+    "team_introductions": [
+      {
+        "member": "book732",
+        "path": "team/book732.md",
+        "own_commit": "a313416c2c29347a9c9ff90905b650447a6c6f02"
+      },
+      {
+        "member": "vivleon",
+        "path": "team/vivleon.md",
+        "own_commit": "564e4cc015e1874647f8dd6c461efc5b9e9d93d4",
+        "attribution_note": "GitHub author login is not linked; commit author name vivleon and authored PR #9 cross-checked"
+      },
+      {
+        "member": "Eunseo-415",
+        "path": "team/eunseo-415.md",
+        "own_commit": "a80168370ead67e366e022f329dc60acbc67df6c"
+      },
+      {
+        "member": "yujinchoe",
+        "path": "team/yujinchoe.md",
+        "own_commit": "ab694700f3e8306b98b6139ecb2d255447baaf67",
+        "merged_pr": 32
+      }
+    ],
+    "troubleshooting": [
+      {
+        "scenario": "git commit --amend",
+        "participant": "이은서 (Eunseo-415)",
+        "role": "실습·기록",
+        "before": "c912c06",
+        "after": "29a30af",
+        "proof": "docs/evidence/amend.png",
+        "validation": "Existing screenshot previously verified; actual transcript and explanation present"
+      },
+      {
+        "scenario": "git reset --soft HEAD~1",
+        "participant": "최유진 (yujinchoe)",
+        "role": "실습·기록",
+        "before": "8288e77",
+        "after": "9ed1718",
+        "proof": "docs/troubleshooting-log.md, actual command transcript with staged M status",
+        "validation": "Unpushed commit intentionally removed; remote commit not expected"
+      },
+      {
+        "scenario": "git revert",
+        "participant": "나현준 (vivleon)",
+        "role": "실습·기록",
+        "before": "3449502195dfca605681bd02d90cd5628ce8d884",
+        "after": "6690b3b83ca1e51b84ab4a6bdc7b22e4016075c8",
+        "proof": "docs/evidence/revert-vivleon.txt",
+        "validation": "Both commits are main ancestors; diff between practice parent and revert returned 0"
+      },
+      {
+        "scenario": "git stash / git stash pop",
+        "participant": "정근혁 (book732)",
+        "role": "실습·기록",
+        "proof": "docs/troubleshooting-log.md#stash-practice-book732",
+        "validation": "Saved stash, branch transition, restored tracked change, dropped stash id, and untracked-file caveat recorded"
+      }
+    ],
+    "conflict_checks": [
+      {
+        "record": 1,
+        "file": "SUBMISSION.md",
+        "base": "de929ea87a3c08cd7c53d6dba1ea608d5282c799",
+        "ours": "b13e27ff7f046dfd6c48410e79fd80cfc2a6df35",
+        "theirs": "6c8f8ee3f889e773bda955e923903a551bfa64d8",
+        "command": "git merge-tree de929ea87a3c08cd7c53d6dba1ea608d5282c799 b13e27ff7f046dfd6c48410e79fd80cfc2a6df35 6c8f8ee3f889e773bda955e923903a551bfa64d8",
+        "exit_code": 0,
+        "has_conflict_markers": true,
+        "type": "same hunk / adjacent lines, nontrivial",
+        "check_is_read_only": true
+      },
+      {
+        "record": 2,
+        "file": "README.md",
+        "base": "fd630d06ded113f7f9c2b78a37ca9c6ccf90b8c6",
+        "ours": "685e917028515fe496ce2b9a32c69e0d179c0ed4",
+        "theirs": "de929ea87a3c08cd7c53d6dba1ea608d5282c799",
+        "command": "git merge-tree fd630d06ded113f7f9c2b78a37ca9c6ccf90b8c6 685e917028515fe496ce2b9a32c69e0d179c0ed4 de929ea87a3c08cd7c53d6dba1ea608d5282c799",
+        "exit_code": 0,
+        "has_conflict_markers": true,
+        "type": "same hunk / adjacent lines, nontrivial",
+        "check_is_read_only": true
+      }
+    ],
+    "core_concepts": {
+      "branch_pointer_and_separation": "docs/CONTRIBUTING.md",
+      "github_flow_and_pr_review": "docs/CONTRIBUTING.md",
+      "conflict_markers": "docs/conflict-resolution.md",
+      "reset_revert_stash_differences": "docs/troubleshooting-log.md",
+      "reproducible_resolution_records": "actual scenarios with commands, before/after states, reasons and cautions"
+    },
+    "remaining_in_scope": [
+      "Create docs/evidence/git-log.txt using actual git log --oneline --graph --all output and link it",
+      "When adding git-log.txt update docs/evidence/README.md because it currently says final history is not created",
+      "Root is consolidating stale status rows and replacing review/PR placeholders; preserve all actual command transcripts and evidence files"
+    ],
+    "not_checked": [
+      "Per-member substantive review counts and author interaction; assigned to separate auditor",
+      "Branch protection and all-PR requirements; assigned to separate auditor"
+    ]
+  }
+}
