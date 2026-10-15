@@ -10,7 +10,7 @@
 ## 히스토리와 요구사항 점검
 
 - [git-log.txt](git-log.txt): `git log --oneline --graph --all`의 실제 출력에서 그래프 줄 끝 공백만 제거했습니다. 위 기준 시점에 생성했으며, 현재 정리 PR의 최종 병합 커밋은 아직 포함하지 않습니다. `--all`에는 미병합·이전 브랜치도 나타납니다.
-- [requirements-audit.json](requirements-audit.json): GitHub에서 확인한 팀원별 기여·리뷰·답변, PR별 상호작용, main 규칙과 실습 점검 결과입니다. 기준 시점의 `main`을 점검한 자료이며, 이 PR에서 추가한 히스토리 파일과 문서 정리는 이후 변경입니다. GitHub 활동이 추가되면 내용도 갱신해야 합니다.
+- [requirements-audit.json](requirements-audit.json): GitHub에서 확인한 팀원별 기여·리뷰·답변, PR별 상호작용, main 규칙과 실습 점검 결과입니다. 기준 시점의 `main` 점검과 이후 활동을 구분하며, `follow_up`에 vivleon의 PR 답변과 이슈 상태 정리를 추가했습니다. 이 PR에서 추가한 히스토리 파일과 문서 정리도 기준 시점 이후 변경입니다. GitHub 활동이 추가되면 내용도 갱신해야 합니다.
 - 읽기 쉬운 결과와 보완할 항목은 [제출 전 점검](../../SUBMISSION.md#requirements-check)에 있습니다. 전체 요구사항 완료로 판정한 자료는 아닙니다.
 
 ## 히스토리 텍스트 갱신하기

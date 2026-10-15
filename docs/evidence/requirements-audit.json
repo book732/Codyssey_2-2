@@ -105,7 +105,27 @@
           "pr": 9,
           "review": "https://github.com/book732/Codyssey_2-2/pull/9#pullrequestreview-5529151005",
           "evidence": "https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422",
-          "reason": "Author replied to reviewer and reported issue-checklist update. This is response evidence, not a profile-content change."
+          "reason": "Author replied to reviewer and reported issue-checklist update. This is response evidence, not a profile-content change.",
+          "additional_author_replies": [
+            {
+              "pr": 12,
+              "url": "https://github.com/book732/Codyssey_2-2/pull/12#issuecomment-6188207816",
+              "body": "검토 감사합니다. 협업 가이드와 PR 양식의 변경 사항·이유·검증 항목을 다시 확인했고, 최신 진행 상태는 PR #34에 정리했어요.",
+              "created_at": "2026-10-15T08:48:46Z"
+            },
+            {
+              "pr": 18,
+              "url": "https://github.com/book732/Codyssey_2-2/pull/18#issuecomment-6188208326",
+              "body": "확인 감사합니다. 이은서 소개 링크와 Issue #11·PR #13 연결을 다시 확인했어요. 지금은 네 명의 소개가 모두 병합돼 PR #34에도 최신 상태로 정리했습니다.",
+              "created_at": "2026-10-15T08:48:48Z"
+            },
+            {
+              "pr": 27,
+              "url": "https://github.com/book732/Codyssey_2-2/pull/27#issuecomment-6188208835",
+              "body": "검토 감사합니다. 다른 실습 PR까지 확인하고 두 문서의 중복과 완료 상태를 PR #34에서 정리했어요. 실습 명령·출력은 보존했고, #34는 병합 대기입니다.",
+              "created_at": "2026-10-15T08:48:49Z"
+            }
+          ]
         }
       },
       "Eunseo-415": {
@@ -214,12 +234,15 @@
         "url": "https://github.com/book732/Codyssey_2-2/pull/12",
         "author": "vivleon",
         "substantive_comment_quality": "borderline_positive",
-        "author_reviewer_interaction": "not_proven",
-        "assessment": "Specific positive review exists, but no author reply or post-review change recorded.",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Specific positive review exists and the author replied confirming guideline/template checks. Positive review quality remains subject to rubric interpretation.",
         "review_urls": [
           "https://github.com/book732/Codyssey_2-2/pull/12#pullrequestreview-5529290956"
         ],
-        "author_reply_urls": []
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/12#issuecomment-6188207816"
+        ],
+        "follow_up_pr": 34
       },
       {
         "number": 13,
@@ -250,12 +273,15 @@
         "url": "https://github.com/book732/Codyssey_2-2/pull/18",
         "author": "vivleon",
         "substantive_comment_quality": "clear",
-        "author_reviewer_interaction": "not_proven",
-        "assessment": "Specific factual review exists; no author reply or post-review change recorded.",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Specific factual review exists and the author replied confirming profile/issue/PR links and the current four-person status.",
         "review_urls": [
           "https://github.com/book732/Codyssey_2-2/pull/18#pullrequestreview-5529485999"
         ],
-        "author_reply_urls": []
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/18#issuecomment-6188208326"
+        ],
+        "follow_up_pr": 34
       },
       {
         "number": 20,
@@ -304,12 +330,15 @@
         "url": "https://github.com/book732/Codyssey_2-2/pull/27",
         "author": "vivleon",
         "substantive_comment_quality": "clear",
-        "author_reviewer_interaction": "partial_not_proven",
-        "assessment": "Post-review merge commit 621911f integrates other practice records, but duplicate/stale status text remained; no author reply recorded. Do not claim full review-request resolution.",
+        "author_reviewer_interaction": "confirmed",
+        "assessment": "Author replied with status cleanup and evidence preservation in follow-up PR #34. The response is recorded; PR #34 remains open and unmerged.",
         "review_urls": [
           "https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146"
         ],
-        "author_reply_urls": []
+        "author_reply_urls": [
+          "https://github.com/book732/Codyssey_2-2/pull/27#issuecomment-6188208835"
+        ],
+        "follow_up_pr": 34
       },
       {
         "number": 28,
@@ -351,7 +380,7 @@
     ],
     "all_requirements_complete": false,
     "remaining_member_gap": "Eunseo-415 own-PR review reflection/response not proven.",
-    "remaining_per_pr_gap": "Several merged PRs lack author/reviewer interaction; PR #2 lacks substantive review content and PR #32 only has generic confirmation."
+    "remaining_per_pr_gap": "Other authors still need interaction records on PR #2, #13, #15, #20, #28, #30, #32; #2 lacks substantive review and #32 only has generic confirmation."
   },
   "repository_evidence": {
     "collaborators": [
@@ -641,7 +670,7 @@
       "reset_revert_stash_differences": "docs/troubleshooting-log.md",
       "reproducible_resolution_records": "actual scenarios with commands, before/after states, reasons and cautions"
     },
-    "remaining_in_scope": [
+    "remaining_before_document_cleanup": [
       "Create docs/evidence/git-log.txt using actual git log --oneline --graph --all output and link it",
       "When adding git-log.txt update docs/evidence/README.md because it currently says final history is not created",
       "Root is consolidating stale status rows and replacing review/PR placeholders; preserve all actual command transcripts and evidence files"
@@ -650,5 +679,86 @@
       "Per-member substantive review counts and author interaction; assigned to separate auditor",
       "Branch protection and all-PR requirements; assigned to separate auditor"
     ]
+  },
+  "follow_up": {
+    "checked_at_utc": "2026-10-15T08:51:50Z",
+    "actor": "vivleon",
+    "author_replies": [
+      {
+        "pr": 12,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/12#issuecomment-6188207816",
+        "body": "검토 감사합니다. 협업 가이드와 PR 양식의 변경 사항·이유·검증 항목을 다시 확인했고, 최신 진행 상태는 PR #34에 정리했어요.",
+        "created_at": "2026-10-15T08:48:46Z"
+      },
+      {
+        "pr": 18,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/18#issuecomment-6188208326",
+        "body": "확인 감사합니다. 이은서 소개 링크와 Issue #11·PR #13 연결을 다시 확인했어요. 지금은 네 명의 소개가 모두 병합돼 PR #34에도 최신 상태로 정리했습니다.",
+        "created_at": "2026-10-15T08:48:48Z"
+      },
+      {
+        "pr": 27,
+        "url": "https://github.com/book732/Codyssey_2-2/pull/27#issuecomment-6188208835",
+        "body": "검토 감사합니다. 다른 실습 PR까지 확인하고 두 문서의 중복과 완료 상태를 PR #34에서 정리했어요. 실습 명령·출력은 보존했고, #34는 병합 대기입니다.",
+        "created_at": "2026-10-15T08:48:49Z"
+      }
+    ],
+    "issue_status": {
+      "5": {
+        "state": "CLOSED",
+        "all_four_introductions_checked": true,
+        "action": "Already completed before this follow-up; no duplicate change"
+      },
+      "6": {
+        "state": "CLOSED",
+        "action": "Already closed before this follow-up; no duplicate change"
+      },
+      "24": {
+        "state": "CLOSED",
+        "merge_checkbox_checked": true,
+        "action": "Updated own merged PR #27 status and moved evidence links to main"
+      },
+      "33": {
+        "state": "OPEN",
+        "action": "Remains open until PR #34 merges"
+      }
+    },
+    "remaining_by_author": {
+      "book732": {
+        "prs": [
+          2,
+          15,
+          28
+        ],
+        "action": "Obtain substantive review for #2 and reply; answer #15 work-details review and #28 document-status review"
+      },
+      "Eunseo-415": {
+        "prs": [
+          13,
+          30
+        ],
+        "action": "Complete PR #13 Why/How and record own responses to reviews"
+      },
+      "yujinchoe": {
+        "prs": [
+          20,
+          32
+        ],
+        "action": "Confirm commands on #20; obtain substantive review and reply on #32"
+      }
+    },
+    "required_vs_optional": {
+      "mandatory": [
+        "At least one own-PR review response/reflection per member",
+        "What/Why/How in each PR body",
+        "Substantive review and author interaction for each PR"
+      ],
+      "no_repeat_needed": [
+        "Already-met merged PR/review counts",
+        "Team introductions and four Git exercises",
+        "Already completed Issue #5 and #6 cleanup"
+      ],
+      "issue_checklist_note": "A separate rule requiring every issue checkbox to be checked is not in the assignment; issue links and actual work evidence remain required"
+    }
   }
 }

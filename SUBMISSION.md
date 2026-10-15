@@ -4,6 +4,7 @@
 - 팀 구성: 4명, 팀장 정근혁
 - 선택 결과물: **B. 팀 소개**
 - 점검 기준: 2026-10-15, `main`의 [d6f517c](https://github.com/book732/Codyssey_2-2/commit/d6f517c4634dde58021187a33a7010455c32a717) (PR #32·#30 병합까지).
+- 후속 확인: 2026-10-15 17:48(한국 시간), vivleon의 PR #12·#18·#27 답변과 Issue #5·#6·#24 상태 반영.
 - **전체 요구사항 완료는 아직 아닙니다.** 아래 표는 실제 GitHub 기록 기준이며, 현재 문서 정리 PR의 승인·병합은 별도로 필요합니다.
 
 ## 팀원 소개와 기여 커밋
@@ -28,8 +29,9 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 
 - 현재 공통 문서 정리 작업: vivleon의 [Issue #33](https://github.com/book732/Codyssey_2-2/issues/33) · [PR #34](https://github.com/book732/Codyssey_2-2/pull/34). 리뷰·병합 대기이며 위 병합 개수에는 포함하지 않습니다.
 - 미병합으로 닫힌 PR: book732 [#7](https://github.com/book732/Codyssey_2-2/pull/7), yujinchoe [#16](https://github.com/book732/Codyssey_2-2/pull/16). 위 병합 개수에 포함하지 않습니다. 후속 작업은 각각 [#15](https://github.com/book732/Codyssey_2-2/pull/15), [#32](https://github.com/book732/Codyssey_2-2/pull/32)에서 병합됐습니다.
-- 공동 소개 작업 [#5](https://github.com/book732/Codyssey_2-2/issues/5)는 아직 열려 있고 이은서·최유진 체크가 남아 있습니다. 두 소개 파일은 이미 병합됐으므로 담당자와 체크 상태를 맞추면 됩니다.
-- 이전 소개 작업 [#6](https://github.com/book732/Codyssey_2-2/issues/6)도 열려 있습니다. 작성자가 후속 [#15](https://github.com/book732/Codyssey_2-2/pull/15)와 비교해 정리할 항목입니다.
+- 공동 소개 작업 [#5](https://github.com/book732/Codyssey_2-2/issues/5)는 네 명 모두 체크된 뒤 닫혔습니다. 추가 작업은 필요 없습니다.
+- 이전 소개 작업 [#6](https://github.com/book732/Codyssey_2-2/issues/6)도 닫힌 상태입니다. 후속 [#15](https://github.com/book732/Codyssey_2-2/pull/15)는 병합됐습니다.
+- vivleon의 [Issue #24](https://github.com/book732/Codyssey_2-2/issues/24)는 실제 병합에 맞춰 마지막 체크와 '병합 대기' 표시를 갱신하고 증빙을 main 링크로 연결했습니다.
 
 ## 팀원별 최소 기준
 
@@ -47,7 +49,7 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 | 팀원 | 다른 팀원 PR에 작성한 실질 리뷰 | 내 PR에서 요청에 답변·반영한 기록 |
 | --- | --- | --- |
 | book732 | [PR #9](https://github.com/book732/Codyssey_2-2/pull/9#pullrequestreview-5529151005), [PR #18](https://github.com/book732/Codyssey_2-2/pull/18#pullrequestreview-5529485999), [PR #22](https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529838008) | [#4](https://github.com/book732/Codyssey_2-2/pull/4)의 요청 반영 [2a692af](https://github.com/book732/Codyssey_2-2/commit/2a692af990676f9280449162831a3d384e7fc1bd) |
-| vivleon | [PR #4](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445), [PR #7](https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929), [PR #16](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773), [PR #20](https://github.com/book732/Codyssey_2-2/pull/20#pullrequestreview-5529617471), [PR #22](https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529841019), [PR #26](https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530004211) | [PR #9 답글](https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422): 요청 확인과 점검 결과 답변. 소개 본문 수정 커밋을 뜻하지 않음 |
+| vivleon | [PR #4](https://github.com/book732/Codyssey_2-2/pull/4#pullrequestreview-5529024445), [PR #7](https://github.com/book732/Codyssey_2-2/pull/7#pullrequestreview-5529105929), [PR #16](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773), [PR #20](https://github.com/book732/Codyssey_2-2/pull/20#pullrequestreview-5529617471), [PR #22](https://github.com/book732/Codyssey_2-2/pull/22#pullrequestreview-5529841019), [PR #26](https://github.com/book732/Codyssey_2-2/pull/26#pullrequestreview-5530004211) | [PR #9 답글](https://github.com/book732/Codyssey_2-2/pull/9#issuecomment-6186126422): 요청 확인과 점검 결과 답변. 소개 본문 수정 커밋을 뜻하지 않음. 후속 답변: [#12](https://github.com/book732/Codyssey_2-2/pull/12#issuecomment-6188207816), [#18](https://github.com/book732/Codyssey_2-2/pull/18#issuecomment-6188208326), [#27](https://github.com/book732/Codyssey_2-2/pull/27#issuecomment-6188208835) |
 | Eunseo-415 | [PR #15](https://github.com/book732/Codyssey_2-2/pull/15#pullrequestreview-5529364748), [PR #16](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529392124) | [#13](https://github.com/book732/Codyssey_2-2/pull/13), [#30](https://github.com/book732/Codyssey_2-2/pull/30)에서 리뷰 이후 본인 답변·수정 증빙 필요 |
 | yujinchoe | [PR #27](https://github.com/book732/Codyssey_2-2/pull/27#pullrequestreview-5529962146), [PR #28](https://github.com/book732/Codyssey_2-2/pull/28#pullrequestreview-5529975026) | [PR #22 답글](https://github.com/book732/Codyssey_2-2/pull/22#issuecomment-6187274792) · [d1df352](https://github.com/book732/Codyssey_2-2/commit/d1df352cdef77e1ec28581299f131bbfb98506b9). 기존 [PR #16 리뷰](https://github.com/book732/Codyssey_2-2/pull/16#pullrequestreview-5529408773) 반영 [b867601](https://github.com/book732/Codyssey_2-2/commit/b8676018c58c7d94b7454ad5f921f4c96ae79bcc)도 있으며, #16 자체는 미병합 |
 
@@ -103,15 +105,16 @@ vivleon의 소개 커밋은 GitHub 계정 연결이 비어 있지만, 커밋 작
 
 ### PR별 보완할 기록
 
-실질 검토와 작성자 응답·반영이 함께 확인된 PR은 [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#22](https://github.com/book732/Codyssey_2-2/pull/22), [#26](https://github.com/book732/Codyssey_2-2/pull/26)입니다. 나머지는 아래 기록을 보완해야 합니다. 이미 병합됐다는 이유만으로 리뷰 상호작용까지 완료한 것으로 세지 않습니다.
+작성자 응답·반영이 확인된 PR은 [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18), [#22](https://github.com/book732/Codyssey_2-2/pull/22), [#26](https://github.com/book732/Codyssey_2-2/pull/26), [#27](https://github.com/book732/Codyssey_2-2/pull/27)입니다. #27의 현황표 수정은 이 PR #34에서 보완하며 아직 병합 전입니다. 나머지는 아래 기록을 보완해야 합니다. 이미 병합됐다는 이유만으로 리뷰 상호작용까지 완료한 것으로 세지 않습니다.
 
 | 작성자 | 보완할 PR | 필요한 기록 |
 | --- | --- | --- |
 | book732 | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#15](https://github.com/book732/Codyssey_2-2/pull/15), [#28](https://github.com/book732/Codyssey_2-2/pull/28) | #2는 실질적인 검토 댓글도 필요. 각 PR의 검토 내용에 작성자가 답변하거나 반영 근거를 연결 |
-| vivleon | [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18), [#27](https://github.com/book732/Codyssey_2-2/pull/27) | 작성자의 확인·조치 답변 필요. #27의 현황표 정리는 이번 문서 정리 작업에서 보완하며 원 PR의 답변은 아직 별도 |
 | Eunseo-415 | [#13](https://github.com/book732/Codyssey_2-2/pull/13), [#30](https://github.com/book732/Codyssey_2-2/pull/30) | 작성자 답변 또는 요청 반영 근거 필요. #13 본문에 Why·How도 추가 |
 | yujinchoe | [#20](https://github.com/book732/Codyssey_2-2/pull/20), [#32](https://github.com/book732/Codyssey_2-2/pull/32) | #20의 명령 확인 요청에 답변 필요. #32는 실질 검토 내용과 작성자 응답 보완 |
 
 #12·#13·#30에는 구체적인 확인 평가가 있지만 실질 리뷰로 볼지는 평가 기준에 따라 달라질 수 있습니다. 다른 PR의 명확한 리뷰만으로 개인별 최소 개수를 계산했습니다.
 
 이 목록은 점검 당시 증빙의 유무를 뜻합니다. 다른 팀원의 답변을 대신 작성하거나 과거에 수행하지 않은 활동을 완료로 적지 않습니다.
+
+이미 충족한 소개·실습을 다시 하거나 PR·리뷰 개수를 늘릴 필요는 없습니다. 본인 PR의 리뷰 반영, PR 본문의 What·Why·How, 각 PR의 실질 검토와 작성자 상호작용은 과제의 필수 기준이므로 남은 기록만 보완합니다. Issue #5·#6은 정리가 끝났으며, 과제에는 모든 Issue의 체크리스트를 별도로 완성하라는 요구는 없습니다.
