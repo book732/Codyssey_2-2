@@ -12,7 +12,7 @@
 | 정근혁 | book732 | 팀장 | [book732.md](team/book732.md) |
 | 나현준 | vivleon | 팀원 | [vivleon.md](team/vivleon.md) |
 | 이은서 | Eunseo-415 | 팀원 | [eunseo-415.md](team/eunseo-415.md) |
-| 최유진 | yujinchoe | 팀원 | [PR #16에서 작성 중](https://github.com/book732/Codyssey_2-2/pull/16) |
+| 최유진 | yujinchoe | 팀원 | [PR #16 (닫힘·미병합)](https://github.com/book732/Codyssey_2-2/pull/16) |
 
 ## 개인별 Issue와 PR
 
