@@ -20,7 +20,7 @@
 
 | 팀원 | 내가 만든 Issue | 내가 만든 PR |
 | --- | --- | --- |
-| book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7) |
+| book732 | [#1](https://github.com/book732/Codyssey_2-2/issues/1), [#3](https://github.com/book732/Codyssey_2-2/issues/3), [#6](https://github.com/book732/Codyssey_2-2/issues/6), [#14](https://github.com/book732/Codyssey_2-2/issues/14) | [#2](https://github.com/book732/Codyssey_2-2/pull/2), [#4](https://github.com/book732/Codyssey_2-2/pull/4), [#7](https://github.com/book732/Codyssey_2-2/pull/7), [#15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | vivleon | [#8](https://github.com/book732/Codyssey_2-2/issues/8), [#10](https://github.com/book732/Codyssey_2-2/issues/10), [#17](https://github.com/book732/Codyssey_2-2/issues/17) | [#9](https://github.com/book732/Codyssey_2-2/pull/9), [#12](https://github.com/book732/Codyssey_2-2/pull/12), [#18](https://github.com/book732/Codyssey_2-2/pull/18) |
 | Eunseo-415 | [#11](https://github.com/book732/Codyssey_2-2/issues/11) | [#13](https://github.com/book732/Codyssey_2-2/pull/13) |
 | yujinchoe | 본인이 링크 추가 | 본인이 링크 추가 |
@@ -48,18 +48,18 @@
 
 - [프로젝트 안내](README.md)
 - [협업 가이드](docs/CONTRIBUTING.md)
-- [충돌 해결 기록 양식](docs/conflict-resolution.md)
+- [충돌 해결 기록](docs/conflict-resolution.md)
 - [Git 트러블슈팅 기록 양식](docs/troubleshooting-log.md)
 - [AI 도구 작업 안내](AGENTS.md)
 - [Git 히스토리 증빙 안내](docs/evidence/README.md)
 
 ## 팀 실습 증빙
 
-현재는 **기록 양식만 준비한 상태**입니다. 실제 실습 후 참여자와 재현 절차를 문서에 적고, 관련 PR·커밋 링크를 아래에 추가합니다.
+PR #15 병합 준비 중 실제로 발생한 충돌 1건을 해결해 기록했습니다. 두 번째 충돌과 Git 트러블슈팅은 아직 미실습 상태입니다. 이후 실제로 수행한 내용만 추가합니다.
 
 | 실습 | 기록 문서 | 상태와 증빙 |
 | --- | --- | --- |
-| 충돌 해결 1회차 | [충돌 해결 기록](docs/conflict-resolution.md) | 미실습 · PR/커밋 링크 추가 예정 |
+| 충돌 해결 1회차 | [실제 기록 #1](docs/conflict-resolution.md#conflict-1) | 비자명 충돌 해결 · [PR #15](https://github.com/book732/Codyssey_2-2/pull/15) |
 | 충돌 해결 2회차 | [충돌 해결 기록](docs/conflict-resolution.md) | 미실습 · PR/커밋 링크 추가 예정 |
 | `git commit --amend` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
 | `git reset --soft HEAD~1` | [트러블슈팅 기록](docs/troubleshooting-log.md) | 미실습 · 참여자/PR/커밋 링크 추가 예정 |
